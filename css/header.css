@@ -1,0 +1,51 @@
+/* Navigation */
+
+/* Header */
+header {
+    background-image: url(../img/header.jpg);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+
+header .row .info h1 span {
+    text-align: center;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #bdbdbd;
+}
+
+header .row .info h1 {
+    display: block;
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 900;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+}
+
+header .row .info ul {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    padding: 0 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+header .row .info ul li {
+    list-style: none;
+    color: #fff;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
