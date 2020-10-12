@@ -2,12 +2,6 @@
 ![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
-# Mitech
-### 18a group personal website project
-
-This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
-
-Site published at https://github.com/front-end-by-rimantas/18-grupe-portfolio-new-per/
 
 Design: [New-per-netlify portfolio template](https://new-per.netlify.app/demo-3.html)
 
