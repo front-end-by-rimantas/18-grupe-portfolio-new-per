@@ -1,0 +1,20 @@
+.container.contact{
+    background-color: #F4F5F8;
+}
+.full-contact {
+    background-color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.contact-info {
+    background-image:url(../img/contact.jpg);
+}
+.just-title {
+    margin-bottom: 50px;
+}
+.inputs {
+    padding: 15px;
+}
+.form-msg {
+    margin-bottom: 10px;
+}
