@@ -1,0 +1,146 @@
+.image {
+    justify-self: right;
+        
+   
+
+}
+    .image img {
+         width: 360px;
+         height: 510px;
+         border: 10px solid rgb(243, 239, 239);
+         
+        
+        
+
+    }
+.about {
+    justify-self: left;
+    margin-right: 20%;
+
+}
+    .about h1 {
+        color: indigo;
+        padding-bottom: 5px;
+        border-bottom: 1px solid rgb(238, 233, 233);
+        margin-bottom: 50px;
+
+    }
+        h1 span {
+            color: rgb(221, 84, 180);
+        }
+    .about h2 {
+        font-weight: lighter;
+        font-size: 20px;
+        padding-bottom: 30px;
+
+    }
+    .about> p {
+        color: grey;
+        font-size: 17px;
+        line-height: 150%;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(241, 228, 228);
+        
+
+    }
+    .about .contacts {
+        display: inline-block;
+        width: 100%;
+        padding-top: 50px;
+        color: grey;
+
+    }
+        .about .contacts .left-column {
+            display: inline-block;
+            width: 50%;
+            float: left;
+            
+            /* padding-bottom: 40px; */
+            /* margin-right: 20%; */
+
+        }
+            .left-column .name {
+                padding-bottom: 20px;
+               
+
+            }
+                .contacts span {
+                    color: black;
+                }
+                .contacts span::after {
+                    content:'...';
+                    color: transparent;
+                    
+                }
+
+            .left-column .age {
+                padding-bottom: 20px;
+                
+
+            }
+        .about .contacts .right-column {
+            display: inline-block;
+            width: 50%;
+            float: right;
+            /* padding-bottom: 40px; */
+            /* margin-right: 20%; */
+            /* color: grey; */
+
+        }
+            .right-column .email {
+                padding-bottom: 20px;
+                
+            }
+            .right-column .location {
+                padding-bottom: 20px;
+               
+            }
+    .about .links {
+        display: inline-block;
+        width: 100%;
+        font-size: 12px;
+        line-height: 10px;
+        text-align: center;
+        padding-top: 25px;
+        
+        
+       
+
+    }
+        .links .download-resume {
+            display: inline-block;
+            float: left;
+            width: 45%;
+            text-decoration: none;
+            background-color: rgb(78, 16, 78);
+            color: white;
+            padding: 15px;
+            /* padding-right: 20px;
+            padding-left: 20px; */
+            margin-right: 15px;
+            border-radius: 20px;
+
+        }
+        .links .download-resume:hover {
+            background-color: white;
+            color: grey;
+
+        }
+        .links .hire-me {
+            display: inline-block;
+            width: 25%;
+            float: left;
+            text-decoration: none;
+            background-color: rgb(78, 16, 78);
+            color: white;
+            padding: 15px;
+            /* padding-right: 20px;
+            padding-left: 20px; */
+            border-radius: 20px;
+
+        }
+        .links .hire-me:hover {
+            background-color: white;
+            color: grey;
+        }
+
