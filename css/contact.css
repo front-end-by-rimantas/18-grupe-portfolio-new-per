@@ -1,20 +1,69 @@
 .container.contact{
     background-color: #F4F5F8;
 }
+.contact-row {
+    background-color: #ffffff;
+}
 .full-contact {
     background-color: #ffffff;
     padding-bottom: 20px;
+    padding: 30px;
 }
 
 .contact-info {
-    background-image:url(../img/contact.jpg);
+    background-color: blueviolet;
+    padding: 50px;
+    position: relative;
 }
 .just-title {
     margin-bottom: 50px;
 }
-.inputs {
+.form-msg .inputs {
     padding: 15px;
+    border: none;
+    background-color: #F4F5F8;
+    width: 70%;
+    outline: none;
 }
 .form-msg {
     margin-bottom: 10px;
+    background-color: #F4F5F8;
+}
+i.fa.fa-facomment{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+div > label > i.fa {
+    background-color:gray;
+    padding: 15px;
+    width: 40px;
+}
+.button > button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 22px;
+    border: none;
+    font-size: 13px;
+    background-color: blueviolet;
+    
+}
+button:hover{
+    background-color: #ffffff;
+}
+.contact-h4 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+.contact-p{
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+.contact-h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.contact-h5 > .fa {
+    margin-right: 10px;
 }
