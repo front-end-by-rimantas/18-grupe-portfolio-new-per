@@ -69,4 +69,6 @@
 
  @media (max-width: 900px){
     .col-12 > .p {
-        padding: 0 40px;               
+        padding: 0 40px;
+     }
+}
