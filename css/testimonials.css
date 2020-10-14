@@ -11,7 +11,7 @@
     background-color: rgba(90, 90, 90, 0.15);
     height: 35vh;
     color: white;
-    padding: 20px;
+    padding: 10px;
 }
     .testimonials .col-12 h4 {
         color: var(--main-color);
@@ -19,7 +19,7 @@
         font-family: 'Montserrat';
         font-weight: 250;
         padding: 10px;
-        font-size: 16px;
+        font-size: 18px;
 }
     .testimonials .col-12 i {
         margin: 20px 0;
@@ -31,25 +31,22 @@
     .testimonials .col-12 p {
         padding-top: 20px;
         margin-bottom: 20px;
+        word-spacing: 3px;
+        font-size: 18px;
+        font-weight: 250;
+        text-align: ;
+        
+        
     }
     .testimonials .col-12 h3 {
         padding-top: 30px;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
     
     }
     .testimonials .col-12 h2 {
         margin-bottom: 60px;
     }
     
-
-
-
-.nav-comments-box{
-                display: inline-block;
-                width: 100%;
-                text-align: center;
-                padding-top: 30px
-            }
                 .nav-comments-box > .comments-box{
                     display: inline-block;
                     width: 17px;
@@ -59,4 +56,10 @@
                     border-radius: 20%;
                     cursor: pointer;
                 }
+
+                .nav-comments-box > .activeBar{
+                    width: 34px;
+                    background-color: var(--main-color)
+                }
+
                 
