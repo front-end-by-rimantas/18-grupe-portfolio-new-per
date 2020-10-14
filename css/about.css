@@ -117,14 +117,8 @@
             background-color: white;
             color: grey;
             border: none;
-            animation-name: buttons;
-            animation-duration: 2s;
-        }
-
-@keyframes buttons {
-           0% {background-color: rgb(78, 16, 78);}
-           100% {background-color: white;}
        }
+
 @media (max-width: 1293px ) {
            .about .contacts .left-column {
                 width: 100%;
