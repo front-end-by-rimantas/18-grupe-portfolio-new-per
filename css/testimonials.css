@@ -8,10 +8,11 @@
 }
 
 .testimonials .col-12{
-    background-color: rgba(90, 90, 90, 0.15);
+    background-color: rgba(81, 81, 81, 0.115);
     height: 35vh;
     color: white;
     padding: 10px;
+    margin: 0px 10px;
 }
     .testimonials .col-12 h4 {
         color: var(--main-color);
@@ -41,17 +42,21 @@
     .testimonials .col-12 h3 {
         padding-top: 30px;
         padding-bottom: 20px;
+        color: rgb(154, 154, 154);
+        font-weight: 200;
     
     }
     .testimonials .col-12 h2 {
-        margin-bottom: 60px;
+        margin-bottom: 40px;
+        color: rgb(181, 181, 181);
+        font-weight: 100;
     }
     
                 .nav-comments-box > .comments-box{
                     display: inline-block;
                     width: 17px;
-                    height: 6px;
-                    background-color: #D6D6D6;
+                    height: 4px;
+                    background-color:rgb(181, 181, 181);
                     margin: 0 2px;
                     border-radius: 20%;
                     cursor: pointer;
@@ -62,4 +67,6 @@
                     background-color: var(--main-color)
                 }
 
-                
+ @media (max-width: 900px){
+    .col-12 > .p {
+        padding: 0 40px;               
