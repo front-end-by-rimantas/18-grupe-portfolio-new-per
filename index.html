@@ -14,7 +14,7 @@
     <!-- custom -->
     <link rel="stylesheet" href="./css/custom.css">
     <link rel="stylesheet" href="./css/navigation.css">
-    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/hero.css">
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/myskills.css">
     <link rel="stylesheet" href="./css/myresume.css">
@@ -35,38 +35,40 @@
             Navigation
         </div>
     </nav>
-    <!-- Header -->
-    <header class="container header">
-        <div class="row">
-            <div class="info">
-                <h1><span>Welcome</span>
-                    I AM JOHN DOE
-                </h1>
-                <ul>
-                    <li>WEB DEVELOPER</li>
-                    <li>UI/UX DESIGNER</li>
-                    <li>PHOTOGRAPHER</li>
-                </ul>
-                <div class="socials">
-                    <a href="#">
-                        <i class="fa fa-facebook"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-behance"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-linkedin"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-dribbble"></i>
-                    </a>
+    <!-- Hero -->
+    <div class="hero overlay" style="background-position: 50% 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="info col-12">
+                    <h3>Welcome</h3>
+                    <h2>I AM JOHN DOE</h2>
+                    <ul>
+                        <li>WEB DEVELOPER</li>
+                        <li>UI/UX DESIGNER</li>
+                        <li>PHOTOGRAPHER</li>
+                    </ul>
+                    <!-- SOCIALS -->
+                    <div class="socials">
+                        <a href="#">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-behance"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-dribbble"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </header>
+    </div>
     <!-- ABOUT -->
     <div class="container">
         <div class="row">
@@ -103,21 +105,147 @@
         </div>
     </div>
     <!-- MY SKILLS -->
-    <div class="container">
+    <div class="container skillscolor">
         <div class="row">
-            MY SKILLS
+            <div class="skill-title col-12">
+                <h4 class="ski-title"><span>My</span> Skills</h4>
+            </div>
+            <div class="skillbar col-6">
+                <!-- Labels Skillbar-->
+                <h4>Photography</h4>
+                <div class="bar-progress" style="width: 75%">
+                    <div class="percentbar">
+                        <span id="bar1" class="percent">75%</span>
+                    </div>
+                </div>
+                <!-- Labels Skillbar-->
+                <h4>Branding</h4>
+                <div class="bar-progress" style="width: 95%;">
+                    <div class="percentbar">
+                        <span id="bar2" class="percent">95%</span>
+                    </div>
+                </div>
+                <!-- Labels Skillbar-->
+                <h4>Graphic Design</h4>
+                <div class="bar-progress" style="width: 70%;">
+                    <div class="percentbar">
+                        <span id="bar3" class="percent">70%</span>
+                    </div>
+                </div>
+                <!-- Labels Skillbar-->
+                <h4>Development</h4>
+                <div class="bar-progress" style="width: 80%;">
+                    <div class="percentbar">
+                        <span id="bar4" class="percent">80%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skillbar col-6">
+                <!-- Labels Skillbar-->
+                <h4>HTML / CSS</h4>
+                <div class="bar-progress" style="width: 95%;">
+                    <div class="percentbar">
+                        <span id="bar5" class="percent">95%</span>
+                    </div>
+                </div>
+                <!-- Labels Skillbar-->
+                <h4>Js / JQuery</h4>
+                <div class="bar-progress" style="width: 80%;">
+                    <div class="percentbar">
+                        <span id="bar6" class="percent">80%</span>
+                    </div>
+                </div>
+                <!-- Labels Skillbar-->
+                <h4>Php / WordPress</h4>
+                <div class="bar-progress" style="width: 75%;">
+                    <div class="percentbar">
+                        <span id="bar7" class="percent">75%</span>
+                    </div>
+                </div>
+                <!-- Labels Skillbar-->
+                <h4>PhotoShop</h4>
+                <div class="bar-progress" style="width: 94%;">
+                    <div class="percentbar">
+                        <span id="bar8" class="percent">94%</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- MY RESUME -->
     <div class="container">
         <div class="row">
-            MY RESUME
+            <div class="col-12 text-center">
+                <h4 class="title"><span>My</span> Resume</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 icon-left">
+                <div class="fa fa-book"></div>
+                <ul class="left">
+                    <li>
+                        <span>Jan 2004 - Dec 2006</span>
+                        <h5>SPECIALIZATION COURS</h5>
+                        <h6>University Of Studies, Poland, Cracow</h6>
+                    </li>
+                    <li>
+                        <span>Jan 2004 - Dec 2006</span>
+                        <h5>SPECIALIZATION COURS</h5>
+                        <h6>University Of Studies, Poland, Cracow</h6>
+                    </li>
+                    <li>
+                        <span>Jan 2004 - Dec 2006</span>
+                        <h5>SPECIALIZATION COURS</h5>
+                        <h6>University Of Studies, Poland, Cracow</h6>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 icon-right">
+                <div class="fa fa-briefcase"></div>
+                <ul class="right">
+                    <li>
+                        <span>Jan 2004 - Dec 2006</span>
+                        <h5>SPECIALIZATION COURS</h5>
+                        <h6>University Of Studies, Poland, Cracow</h6>
+                    </li>
+                    <li>
+                        <span>Jan 2004 - Dec 2006</span>
+                        <h5>SPECIALIZATION COURS</h5>
+                        <h6>University Of Studies, Poland, Cracow</h6>
+                    </li>
+                    <li>
+                        <span>Jan 2004 - Dec 2006</span>
+                        <h5>SPECIALIZATION COURS</h5>
+                        <h6>University Of Studies, Poland, Cracow</h6>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
+
     <!-- COUNTER -->
-    <div class="container">
+    <div class="container counter">
         <div class="row">
-            COUNTER
+            <div class="col-3">
+                <i class="fa fa-heart"></i>
+                <p class="numbers">738</p>
+                <p>HAPPY CLIENTS</p>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-check-square-o"></i>
+                <p class="numbers">102</p>
+                <p>SUCCESSFUL PROJECTS</p>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-trophy"></i>
+                <p class="numbers">06</p>
+                <p>AWARDS RECEIVED</p>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-coffee"></i>
+                <p class="numbers">511</p>
+                <p>CUPS OF TEA</p>
+            </div>
         </div>
     </div>
     <!-- MY SERVICES -->
