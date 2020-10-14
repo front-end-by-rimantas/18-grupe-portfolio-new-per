@@ -66,9 +66,3 @@
                     width: 34px;
                     background-color: var(--main-color)
                 }
-
- @media (max-width: 900px){
-    .col-12 > .p {
-        padding: 0 40px;
-     }
-}
