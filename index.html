@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/flaticons.css">
     <!-- 3rd party -->
     <!-- components -->
     <!-- custom -->
     <link rel="stylesheet" href="./css/custom.css">
-    <link rel="stylesheet" href="./css/navigation.css">
+    <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/hero.css">
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/myskills.css">
@@ -29,12 +30,8 @@
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav class="container">
-        <div class="row">
-            Navigation
-        </div>
-    </nav>
+    <!-- Header -->
+    <header></header>
     <!-- Hero -->
     <div class="hero overlay" style="background-position: 50% 0px;">
         <div class="container">
@@ -273,9 +270,16 @@
         </div>
     </div>
     <!-- MY SERVICES -->
-    <div class="container">
+    <div class="container bg-services">
         <div class="row">
-            MY SERVICES
+            <div class="col-12 text-center mb-50">
+                <h2>
+                    <span>MY</span> SERVICES
+                </h2>
+            </div>
+        </div>
+        <div id="services_block" class="row text-center">
+
         </div>
     </div>
     <!-- MY PORTFOLIO -->
@@ -285,9 +289,26 @@
         </div>
     </div>
     <!-- TESTIMONIALS -->
-    <div class="container">
+    <div class="container testimonials">
         <div class="row">
-            TESTIMONIALS
+            <div class="col-12">
+                <h4>AWEEEESOME WORK</h4>
+                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                    class="fa fa-star"></i><i class="fa fa-star"></i>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum modi sunt eum pariatur dolorum, porro
+                    consequatur, minima deleniti vero officiis corrupti nostrum! Excepturi enim sed quisquam fugiat
+                    blanditiis numquam quibusdam consequatur inventore veritatis. Facere fuga nobis amet quo reiciendis
+                    animi?</p>
+                <h3>JACK DANIELS</h3>
+                <h2>GRAPHIC DESIGNER</h2>
+
+                <div class="nav-comments-box">
+                    <div class="comments-box first-bar activeBar"></div>
+                    <div class="comments-box second-bar"></div>
+                    <div class="comments-box third-bar"></div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- BLOG -->
@@ -297,9 +318,53 @@
         </div>
     </div>
     <!-- CONTACT -->
-    <div class="container">
-        <div class="row">
-            CONTACT
+    <div class="container contact">
+        <div class="row contact-row">
+            <div class="col-7">
+                <div class="full-contact">
+                    <div class="just-title">
+                        <h4 class="title"><span>Get</span> In Touch</h4>
+                    </div>
+                    <form>
+                        <div class="form-msg">
+                            <label for="username"><i class="fa fa-user" aria-hidden="true"></i></label>
+                            <input id="username" type="text" placeholder="Your Full Name Here" class="inputs">
+                        </div>
+                        <div class="form-msg">
+                            <label for="email "><i class="fa fa-envelope" aria-hidden="true"></i></label>
+                            <input id="email" type="text" placeholder="Your Email Here" class="inputs">
+                        </div>
+                        <div class="form-msg">
+                            <label for="messasge_me"><i class="fa fa-comment" aria-hidden="true"></i></label>
+                            <input id="messasge_me" type="text" placeholder="Message For Me" class="inputs">
+                        </div>
+                        <div class="button">
+                            <button>SEND MESSAGE</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-5 contact-info">
+                <div class="row contact-row-right">
+                    <div>
+                        <h4 class="contact-h4">Contact Info.</h4>
+                        <p class="contact-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis culpa
+                            repudiandae possimus
+                            nisi voluptate dignissimos provident sequi vel at.</p>
+                    </div>
+                    <div>
+                        <h5 class="contact-h5"><span class="fa fa-headphones" aria-hidden="true"></span>+00123456789
+                        </h5>
+                    </div>
+                    <div>
+                        <h5 class="contact-h5"><span class="fa fa-play" aria-hidden="true"></span>DEMO@GMAIL.COM</h5>
+                    </div>
+                    <div>
+                        <h5 class="contact-h5"><span class="fa fa-map-marker" aria-hidden="true"></span>3481 MELROSE
+                            PLACE, LOS ANGELES</h5>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- footer -->
@@ -312,6 +377,10 @@
     </footer>
     <script src="./js/main.js" type="module"></script>
     <script src="./js/progressbar.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/headerscroll.js"></script>
 </body>
 
 </html>

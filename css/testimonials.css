@@ -1,0 +1,63 @@
+.testimonials {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.575)), url(../img/client.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 60vh;
+}
+
+.testimonials .col-12{
+    background-color: rgba(81, 81, 81, 0.115);
+    height: 40vh;
+    color: white;
+    padding: 5px;
+    margin: 0px 10px;
+}
+    .testimonials .col-12 h4 {
+        color: var(--main-color);
+        font-size: 18px;
+        font-family: 'Montserrat';
+        font-weight: 250;
+        padding: 10px;
+        font-size: 18px;
+}
+    .testimonials .col-12 i {
+        margin: 15px 0;
+        color: rgb(214, 214, 28);
+        padding: 2px;
+    }
+    .testimonials .col-12 p {
+        padding-top: 20px;
+        margin-bottom: 20px;
+        word-spacing: 3px;
+        font-size: 18px;
+        font-weight: 250;
+    }
+    .testimonials .col-12 h3 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        color: rgb(154, 154, 154);
+        font-weight: 200;
+    
+    }
+    .testimonials .col-12 h2 {
+        margin-bottom: 30px;
+        color: rgb(181, 181, 181);
+        font-weight: 100;
+    }
+    
+                .nav-comments-box > .comments-box{
+                    display: inline-block;
+                    width: 17px;
+                    height: 4px;
+                    background-color:rgb(181, 181, 181);
+                    margin: 0 2px;
+                    border-radius: 20%;
+                    cursor: pointer;
+                }
+
+                .nav-comments-box > .activeBar{
+                    width: 34px;
+                    background-color: var(--main-color)
+                }
