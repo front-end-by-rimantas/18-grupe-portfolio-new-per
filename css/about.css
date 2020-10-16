@@ -10,21 +10,22 @@
     justify-self: left;
     margin-right: 20%;
 }
-    .about h1 {
-        color: #9c27b0;
+    .about h1, .title-blog h1 {
+        color:#212529;
+        font-weight: normal;
         padding-bottom: 5px;         
     }
         h1 span {
-            color: rgb(221, 84, 180);
+            color: #9c27b0;
         }
         .line {
            margin-bottom: 50px;
-            width: 150px;  
-            border-bottom: 1px solid rgb(236, 229, 229);
+           width: 135px;  
+           border-bottom: 1px solid rgb(236, 229, 229);
         }
         .line-blue { 
             width: 60px;
-            border: 1px solid #9c27b0;
+            border: 0.3px solid #212529;
         }
     .about h2 {
         font-weight: lighter;
