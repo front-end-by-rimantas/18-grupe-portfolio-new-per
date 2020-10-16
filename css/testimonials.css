@@ -4,12 +4,14 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 60vh;
+}
+
+.review {
+    background-color: rgba(81, 81, 81, 0.115);
+    width: 50%;
 }
 
 .testimonials .col-12{
-    background-color: rgba(81, 81, 81, 0.115);
-    height: 40vh;
     color: white;
     padding: 5px;
     margin: 0px 10px;
@@ -45,6 +47,11 @@
         margin-bottom: 30px;
         color: rgb(181, 181, 181);
         font-weight: 100;
+    }
+
+    .nav-comments-box {
+        display: inline-block;
+        background: transparent;
     }
     
                 .nav-comments-box > .comments-box{
