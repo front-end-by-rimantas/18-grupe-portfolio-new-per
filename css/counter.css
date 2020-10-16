@@ -24,3 +24,8 @@
     margin-bottom: 30px;
     color: white;
 }
+
+.counter .row .col-3:hover i{
+    transition: all .2s ease-in-out; 
+    transform: scale(1.1);
+}
