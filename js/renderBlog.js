@@ -4,13 +4,16 @@ import renderSingleBlog from './renderSingleBlog.js';
 function renderBlog(blogData) {
     // console.log(blogData);
     const numberBlog = blogData.length;
-    // console.log(numberBlog);
+    console.log(numberBlog);
     let HTML = '';
-    for (let i = 1; i <= numberBlog; i++) {
+    for (let i = 0; i < numberBlog; i++) {
         const singleBlog = blogData[i];
-        // console.log(singleBlog);
+        // console.log(singleBlog.id);
         HTML += renderSingleBlog(singleBlog);
-        const blogDOM = document.querySelector('.content-blog');
+        console.log(HTML);
+        const selector = '.blog' + singleBlog.id;
+        console.log(selector);
+        const blogDOM = document.querySelector(selector);
 
         // perrasome reikiamo HTML elemento turini
         blogDOM.innerHTML = HTML;
