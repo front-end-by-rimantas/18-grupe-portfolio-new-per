@@ -52,36 +52,16 @@
     display: inline-block;
     list-style: none;
     color: #bdbdbd;
+    letter-spacing: 5px;
     font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     padding: 0 1rem;
     border-top: 1px solid rgba(255, 255, 255, 0.07);
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
 }
 
-.hero .container .row .info ul li {
+.hero .container .row .info ul {
     padding: 0;
-}
-
-.hero .container .row .info ul::before{
-    content: '';
-    animation: animate ease infinite 8s;
-    animation-delay: 1s;
-    animation-direction: reverse;
-}
-
-@keyframes animate{
-    0% {
-        content: 'UI/UX DESIGNER';
-    }
-    30% {
-        content: 'PHOTOGRAPHER';
-    }
-    60% {
-        content: 'WEB DEVELOPER';
-    }
-    100% {
-        content: 'UI/UX DESIGNER';
-    }
 }
 
 .hero .container .row .socials {
