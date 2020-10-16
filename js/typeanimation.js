@@ -4,7 +4,7 @@ const cursorSpan = document.querySelector(".cursor");
 const textArray = ["UI/UX DESIGNER", "PHOTOGRAPHER", "WEB DEVELOPER"];
 const typingDelay = 50;
 const erasingDelay = 100;
-const newTextDelay = 2100; // Delay between current and next text
+const newTextDelay = 1500; // Delay between current and next text
 let textArrayIndex = 0;
 let charIndex = 0;
 
@@ -37,5 +37,5 @@ function erase() {
 }
 
 document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
-  if(textArray.length) setTimeout(type, newTextDelay + 150);
+  if(textArray.length) setTimeout(type, newTextDelay + 50);
 });
