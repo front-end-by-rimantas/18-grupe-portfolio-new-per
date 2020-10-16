@@ -11,10 +11,6 @@
     text-align: center;
 }
 
-.hero::before {
-    background: rgba(0, 0, 0, 0.6);
-}
-
 .overlay::before {
     content: '';
     position: absolute;
@@ -55,7 +51,7 @@
 .hero .container .row .info ul {
     display: inline-block;
     list-style: none;
-    color: #fff;
+    color: #bdbdbd;
     font-family: 'Raleway', sans-serif;
     padding: 0 1rem;
     border-top: 1px solid rgba(255, 255, 255, 0.07);
@@ -64,6 +60,28 @@
 
 .hero .container .row .info ul li {
     padding: 0;
+}
+
+.hero .container .row .info ul::before{
+    content: '';
+    animation: animate ease infinite 8s;
+    animation-delay: 1s;
+    animation-direction: reverse;
+}
+
+@keyframes animate{
+    0% {
+        content: 'UI/UX DESIGNER';
+    }
+    30% {
+        content: 'PHOTOGRAPHER';
+    }
+    60% {
+        content: 'WEB DEVELOPER';
+    }
+    100% {
+        content: 'UI/UX DESIGNER';
+    }
 }
 
 .hero .container .row .socials {
@@ -75,12 +93,17 @@
 }
 
 .hero .container .row .socials a i{
-    /* text-align: center; */
     color: #fff;
     width: 40px;
     height: 40px;
     line-height: 40px;
+    margin: 8px;
     font-size: 0.8em;
     border-radius: 50%;
     background: rgba(0, 0, 0, 0.1);
+}
+
+.hero .container .row .socials a i:hover {
+    background-color: #9c27b0;
+    transition: ease 1s;
 }
