@@ -2,7 +2,7 @@ const blogData = [
     {
         id: 1,
         linksubject: '#',
-        image: "./img/blog/1.jpg",
+        image: './img/blog/1.jpg',
         subject: 'UX/UI',
         title: 'Light trails on highway',
         linktitle: '#',

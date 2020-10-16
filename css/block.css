@@ -34,6 +34,7 @@
 .content-blog h4 {
     padding: 20px;
     padding-top: 40px;
+    text-transform: uppercase;
 }
 .content-blog h4 a {
     text-decoration: none;

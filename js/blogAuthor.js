@@ -4,6 +4,5 @@ function blogAuthor(nr, data) {
             <div class='author-name'>
             BY: ${data.name}</div>
             <div class='blog-date'> ${data.date}</div>`
-
 }
 export default blogAuthor;
