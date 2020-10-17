@@ -1,58 +1,40 @@
 const track = document.querySelector('.review');
 const slides = Array.from(track.children);
-// console.log(slides);
-const dotsNav = document.querySelector('.nav-comments-box');
+// console.log(slides[0]);
+const dotsNav = document.querySelector('.slideButtons');
 const dots = Array.from(dotsNav.children);
-// console.log(dots);
 
-const slideHeight = slides[0].getBoundingClientRect().width;
-
-// console.log(slideHeight);
+const slideWidth = slides[0].getBoundingClientRect().width;
 
 const setSlidePosition = (slide, index) => {
-    slide.style.left = slideHeight * index + 'px';
+    slide.style.left = slideWidth * index + 'px';
 };
 
 slides.forEach(setSlidePosition);
 
+function udpateSlide() {
+    // const targetIndex = slides.findIndex(review => review === slides);
+    // const targetSlide = slides[targetIndex];
 
-
-// const current = (track, slides) => {
-//     const nextSlide = slides.nextElementSibling;
-//     track.style.transform = 'translateX(-' + slide.style.left + ')';
-//     slides.classList.remove('current-review');
-//     nextSlide.classList.add('current-review');
-//     console.log(nextSlide);
-// }
-
-// nextButton.addEventListener('click', e => {
-//     current(track, currentSlide, nextSlide);
-// })
+    // console.log(targetIndex);
+    for(let slide of slides) {
+        slide.classList.remove('is-visible');
+        slide.classList.add('is-hidden');
+    // }
+    // currentSlide.classList.remove('is-visible');
+    // targetSlide.classList.add('is-visible');
+};
 
 dotsNav.addEventListener('click', e => {
     const targetDot = e.target.closest('button');
-    // console.log(targetDot);
     if (!targetDot) return;
-   
+
     const currentDot = dotsNav.querySelector('.activeBar');
     const targetIndex = dots.findIndex(dot => dot === targetDot);
     const targetSlide = slides[targetIndex];
-    const nextSlide = targetSlide.nextElementSibling;
-    targetSlide.classList.remove('is-hidden');
-    nextSlide.classList.add('is-hidden');
-    // console.log(nextSlide);
-    // moveToSlide(track, currentSlide, targetSlide);
-    
-    // if (targetIndex != 0){
-    //     targetSlide.classList.remove('is-hidden');
-    // }
-    
-    track.style.transform = 'translateX(-' + nextSlide.style.left + ')';
+
+    track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
     currentDot.classList.remove('activeBar');
     targetDot.classList.add('activeBar');
-    
+
 });
-
-
-
-

@@ -10,7 +10,7 @@
     position: relative;
     display: inline;
     background-color: rgba(19, 19, 19, 0.6);
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     padding: 25px 50px;
     min-height: 300px;
@@ -21,13 +21,17 @@
 .client-review {
     position: absolute;
     top: 0;
-    left: 0;
     width: 100%;
+    max-width: 840px;
     height: 100%;
 }
 
 .is-hidden {
     display: none;
+}
+
+.is-visible {
+    display: block;
 }
 
 .testimonials .col-12 h4 {
@@ -65,25 +69,24 @@
     font-weight: 100;
 }
 
-.nav-comments-box {
+.slideButtons {
     display: inline-block;
     background: transparent;
 }
 
-.testimonials .nav-comments-box button {
+.testimonials .slideButtons button {
     display: inline-block;
     width: 20px;
     height: 4px;
     background-color: #869791;
     margin: 0 2px;
-    /* border-radius: 20%; */
     border: none;
     border-radius: 10px;
     cursor: pointer;
     outline: none;
 }
 
-.testimonials .nav-comments-box>button.activeBar {
+.testimonials .slideButtons>button.activeBar {
     width: 34px;
     background-color: #9c27b0;
     color: #9c27b0;
