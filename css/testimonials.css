@@ -7,64 +7,84 @@
 }
 
 .review {
-    background-color: rgba(81, 81, 81, 0.115);
-    width: 50%;
+    position: relative;
+    display: inline;
+    background-color: rgba(19, 19, 19, 0.6);
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px 50px;
+    min-height: 300px;
+    /* overflow: hidden; */
+    transition: ease 1s;
 }
 
-.testimonials .col-12{
-    color: white;
-    padding: 5px;
-    margin: 0px 10px;
+.client-review {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
-    .testimonials .col-12 h4 {
-        color: var(--main-color);
-        font-size: 18px;
-        font-family: 'Montserrat';
-        font-weight: 250;
-        padding: 10px;
-        font-size: 18px;
+
+.is-hidden {
+    display: none;
 }
-    .testimonials .col-12 i {
-        margin: 15px 0;
-        color: rgb(214, 214, 28);
-        padding: 2px;
-    }
-    .testimonials .col-12 p {
-        padding-top: 20px;
-        margin-bottom: 20px;
-        word-spacing: 3px;
-        font-size: 18px;
-        font-weight: 250;
-    }
-    .testimonials .col-12 h3 {
-        padding-top: 20px;
-        padding-bottom: 10px;
-        color: rgb(154, 154, 154);
-        font-weight: 200;
-    
-    }
-    .testimonials .col-12 h2 {
-        margin-bottom: 30px;
-        color: rgb(181, 181, 181);
-        font-weight: 100;
-    }
 
-    .nav-comments-box {
-        display: inline-block;
-        background: transparent;
-    }
-    
-                .nav-comments-box > .comments-box{
-                    display: inline-block;
-                    width: 17px;
-                    height: 4px;
-                    background-color:rgb(181, 181, 181);
-                    margin: 0 2px;
-                    border-radius: 20%;
-                    cursor: pointer;
-                }
+.testimonials .col-12 h4 {
+    color: var(--main-color);
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 250;
+    padding: 10px;
+    font-size: 18px;
+}
 
-                .nav-comments-box > .activeBar{
-                    width: 34px;
-                    background-color: var(--main-color)
-                }
+.testimonials .col-12 i {
+    margin-top: 5px;
+    color: rgb(214, 214, 28);
+    padding: 2px;
+}
+
+.testimonials .col-12 p {
+    color: #ccc;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.testimonials .col-12 h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: rgb(154, 154, 154);
+    font-weight: 200;
+}
+
+.testimonials .col-12 h2 {
+    color: #ccc;
+    font-weight: 100;
+}
+
+.nav-comments-box {
+    display: inline-block;
+    background: transparent;
+}
+
+.testimonials .nav-comments-box button {
+    display: inline-block;
+    width: 20px;
+    height: 4px;
+    background-color: #869791;
+    margin: 0 2px;
+    /* border-radius: 20%; */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.testimonials .nav-comments-box>button.activeBar {
+    width: 34px;
+    background-color: #9c27b0;
+    color: #9c27b0;
+}
