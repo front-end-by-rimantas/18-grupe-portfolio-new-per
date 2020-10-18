@@ -8,19 +8,30 @@
 
 .review {
     position: relative;
-    display: inline;
+    display: inline-block;
     background-color: rgba(19, 19, 19, 0.6);
-    width: 70%;
+    width: 68%;
+    height: 100%;
     margin: 0 auto;
     padding: 25px 50px;
-    min-height: 300px;
-    /* overflow: hidden; */
+    min-height: 400px;
+    max-width: 840px;
+    overflow: hidden;
+}
+
+.review-track {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    height: 100%;
     transition: ease 1s;
 }
 
 .client-review {
     position: absolute;
     top: 0;
+    bottom: 0;
     width: 100%;
     max-width: 840px;
     height: 100%;
