@@ -7,6 +7,7 @@
 }
 
 .bg-services {
+    position: relative;
     background-color: #f4f5f8;
 }
 
@@ -48,8 +49,25 @@
     margin-bottom: 10px;
 }
 
+.services-items span:hover {
+    background-color: #9c27b0;
+    box-shadow: 20px 20px 50px grey;
+    color: white;
+    transition: ease 1s;
+}
+
 .services-items h3 {
     margin-bottom: 20px;
     font-size: 14px;
     font-weight: 600;
+}
+
+.bg-services::after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background-color: white;
+    left: 5%;
+    top: 54%;
 }
