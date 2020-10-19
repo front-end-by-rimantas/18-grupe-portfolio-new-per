@@ -4,7 +4,6 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    position: relative;
 }
 
 .testimonials .review {
@@ -37,7 +36,6 @@
     top: 0;
     right: 0;
     padding: 30px 50px;
-    transform: translate(0, 0);
 }
 
 .testimonials .review .review-track .client-review h4 {
@@ -79,11 +77,6 @@
     font-weight: 100;
 }
 
-.testimonials .slideButtons {
-    display: inline-block;
-    background: transparent;
-}
-
 .testimonials .slideButtons button {
     display: inline-block;
     width: 15px;
@@ -100,5 +93,4 @@
 .testimonials .slideButtons>button.activeBar {
     width: 30px;
     background-color: #9c27b0;
-    color: #9c27b0;
 }
