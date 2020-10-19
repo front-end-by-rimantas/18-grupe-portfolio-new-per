@@ -57,7 +57,7 @@
     color: #FFD600;
 }
 
-.testimonials .col-12 p {
+.testimonials .review .review-track .client-review p {
     color: #ccc;
     padding-top: 10px;
     margin-bottom: 20px;
@@ -65,7 +65,7 @@
     line-height: 26px;
 }
 
-.testimonials .col-12 h3 {
+.testimonials .review .review-track .client-review h3 {
     font-size: 15px;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -73,13 +73,13 @@
     font-weight: 200;
 }
 
-.testimonials .col-12 h2 {
+.testimonials .review .review-track .client-review h2 {
     font-size: 17px;
     color: #ccc;
     font-weight: 100;
 }
 
-.slideButtons {
+.testimonials .slideButtons {
     display: inline-block;
     background: transparent;
 }
