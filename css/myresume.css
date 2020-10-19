@@ -1,13 +1,13 @@
-.text-center {
+.text-centerRes {
     text-align: center;
 }
-h4.title {
+h4.titleRes {
     display: inline-block;
     font-size: 40px;
     position: relative;
     border-bottom: 1px solid #f5f5f5;
 }
- h4.title::before {
+ h4.titleRes::before {
     display: block;
     content: '';
     width: 60px;
@@ -18,36 +18,36 @@ h4.title {
     bottom: 0;
 }
 
-h4>span{
+.titleRes > span{
     color: blueviolet;
 }
-ul.left {
+ul.leftRes {
     text-align: right;
     list-style: none;
     
 
 }
-ul.right {
+ul.rightRes {
     list-style: none;
 }
-li {
+.liRes {
     padding: 30px 30px 10px;
     position: relative;
     font-size: 20px;
 }
-ul>li h5{
+ul> .liRes h5{
     margin-top: 15px;
     margin-bottom: 8px;
 }
-h5{
+.h5Res{
     color: blueviolet;
 }
-.icon-left{
+.icon-leftRes{
     text-align: right;
     margin-right: 20px;
     border-right: 1px solid gray;
 }
-.icon-right {
+.icon-rightRes {
     margin-left: 20px;
     border-left: 1px solid gray;
 }
@@ -75,7 +75,7 @@ h5{
     border-radius: 50%;
     margin-left: -19px;
 }
-.left > li > span::after {
+.leftRes > .liRes > span::after {
     display: inline-block;
     content: '';
     position: absolute;
@@ -87,7 +87,7 @@ h5{
     border: 2px solid #d6b161;
     background-color: #2e353e;
 }
-.right > li > span::before {
+.rightRes > .liRes > span::before {
     display: inline-block;
     content: '';
     position: absolute;
