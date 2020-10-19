@@ -1,5 +1,6 @@
 // header import
 // hero import
+import {herotypeanim} from './utils/typeanimation.js';
 // about import
 import { servicesData } from './data/services.js';
 import {renderServices} from './components/services/renderServices.js';
@@ -15,5 +16,6 @@ import {carousel} from './utils/carousel.js';
 // testimonial logic
 // latest blog logic
 // renderBlog(blogData);
+herotypeanim();
 renderServices(servicesData);
 carousel();
