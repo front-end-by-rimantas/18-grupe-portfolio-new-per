@@ -4,6 +4,8 @@ import {herotypeanim} from './utils/typeanimation.js';
 // about import
 // my skills import
 // my resume import
+import resumeInfo from './data/resumeInfo.js';
+import { renderResume } from './components/services/renderResume.js';
 // counter import
 // my service import
 import { servicesData } from './data/services.js';
@@ -22,6 +24,7 @@ herotypeanim();
 // about logic
 // my skills logic
 // my resume logic
+renderResume(resumeInfo);
 // counter logic
 // my service logic
 renderServices(servicesData);

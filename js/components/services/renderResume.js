@@ -14,7 +14,7 @@ function renderResume(info) {
         if (line.occupation === 'work') {
 
             HTMLright += `
-                        <li >
+                        <li class ="liRes">
                         <span>${line.line1}</span>
                         <h5 class="h5Res">${line.line2}</h5>
                         <h6>${line.line3}</h6>
@@ -22,7 +22,7 @@ function renderResume(info) {
         }
         else {
             HTMLleft += `
-                        <li >
+                        <li class ="liRes">
                         <span>${line.line1}</span>
                         <h5 class="h5Res">${line.line2}</h5>
                         <h6>${line.line3}</h6>
