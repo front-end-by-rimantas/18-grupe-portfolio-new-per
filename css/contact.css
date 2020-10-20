@@ -17,7 +17,24 @@
     position: relative;
 }
 .just-title {
-    margin-bottom: 50px;
+        margin-bottom: 50px;
+        display: inline-block;
+        font-size: 40px;
+        position: relative;
+        border-bottom: 1px solid #f5f5f5;
+}
+.just-title::before{
+        display: block;
+        content: '';
+        width: 60px;
+        height: 1px;
+        background-color: #9c27b0;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+}
+.titleContact > span{
+    color: blueviolet;
 }
 .form-msg .inputs {
     padding: 15px;
