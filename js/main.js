@@ -1,5 +1,7 @@
 // header import
 // hero import
+import {heroData} from './data/hero.js';
+import {renderHero} from './components/hero/renderHero.js';
 import {herotypeanim} from './utils/typeanimation.js';
 // about import
 // my skills import
@@ -18,6 +20,7 @@ import {carousel} from './utils/carousel.js';
 
 // header logic
 // hero logic
+renderHero(heroData);
 herotypeanim();
 // about logic
 // my skills logic
