@@ -95,3 +95,15 @@ button:hover{
     border-radius: 50%;
     margin-right: 5px;
 }
+
+textarea {
+    border: none;
+    border-radius: 0;
+    padding: 15px;
+    background-color: #F4F5F8;
+    width: 90%;
+}
+.fa.fa-comment {
+    padding-bottom: 40px;
+    padding-top: 40px
+}
