@@ -83,7 +83,7 @@
         text-align: center;
         padding-top: 25px; 
     }
-        .buttons .download-resume {
+        .download-resume {
             display: inline-block;
             float: left;
             bottom: 30px;
@@ -97,12 +97,12 @@
             border-radius: 20px;
             cursor: pointer;
         }
-        .buttons .download-resume:hover {
+        .download-resume:hover {
             background-color: white;
             color: grey;
             border: none;
-        }
-        .buttons .hire-me {
+        }    
+        .hire-me {
             display: inline-block;
             width: 127px;
             bottom: 30px;
@@ -115,7 +115,7 @@
             border-radius: 20px;
             cursor: pointer;  
         }
-        .buttons .hire-me:hover {
+        .hire-me:hover {
             background-color: white;
             color: grey;
             border: none;
