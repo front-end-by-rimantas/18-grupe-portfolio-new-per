@@ -63,9 +63,12 @@ div > label > i.fa {
     border: none;
     font-size: 13px;
     background-color: blueviolet;
+    color: #ffffff;
+    transition: all 1s;
     
 }
 button:hover{
+    color: blueviolet;
     background-color: #ffffff;
 }
 .contact-h4 {
