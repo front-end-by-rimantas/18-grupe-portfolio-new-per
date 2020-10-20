@@ -5,7 +5,6 @@ function generateHeroSocials(socials) {
 
     for(let i = 0; i < totalSoc; i++){
         const socGenerate = socials[i];
-        console.log(socGenerate);
         socialsHTML += `<a href="#"><i class="${socGenerate.icon}"></i></a>`;
     }
  
