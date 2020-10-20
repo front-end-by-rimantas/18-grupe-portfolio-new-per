@@ -11,7 +11,8 @@
 }
 
 .contact-info {
-    background-color: blueviolet;
+    background: linear-gradient(rgba(156, 39, 176, 0.9), rgba(156, 39, 176, 0.9)), url(../img/contact.jpg);
+    background-size: cover;
     padding: 50px;
     position: relative;
 }
