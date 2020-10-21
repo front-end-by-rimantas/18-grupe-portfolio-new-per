@@ -55,11 +55,29 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 14px;
-    padding: 0 1rem;
+    padding: 0.3rem 1rem;
     border-top: 1px solid rgba(255, 255, 255, 0.07);
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-    padding-top: 5px;
-    padding-bottom: 5px;
+    animation: animate infinite 1s;
+}
+
+@keyframes animate{
+    0% {
+        color: springgreen;
+    }
+    25% {
+        color: rgb(217, 255, 0);
+    }
+    50% {
+        color: rgb(0, 247, 255);
+    }
+    75% {
+        color: rgb(212, 0, 255);
+    }
+    100% {
+        color: rgb(255, 61, 55);
+        color: springgreen;
+    }
 }
 
 .hero #hero_block .socials {
