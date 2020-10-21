@@ -18,19 +18,20 @@
         h1 span {
             color: #9c27b0;
         }
-        .line {
+        .lineAbout {
            margin-bottom: 50px;
            width: 135px;  
            border-bottom: 1px solid rgb(236, 229, 229);
         }
         .line-blue { 
             width: 60px;
-            border: 0.3px solid #212529;
+            border: 0.3px solid#9c27b0;
         }
     .about h2 {
         font-weight: lighter;
         font-size: 20px;
         padding-bottom: 30px;
+        padding-top: 40px;
     }
     .about> p {
         color: grey;
@@ -82,7 +83,7 @@
         text-align: center;
         padding-top: 25px; 
     }
-        .buttons .download-resume {
+        .download-resume {
             display: inline-block;
             float: left;
             bottom: 30px;
@@ -96,12 +97,12 @@
             border-radius: 20px;
             cursor: pointer;
         }
-        .buttons .download-resume:hover {
+        .download-resume:hover {
             background-color: white;
             color: grey;
             border: none;
-        }
-        .buttons .hire-me {
+        }    
+        .hire-me {
             display: inline-block;
             width: 127px;
             bottom: 30px;
@@ -114,7 +115,7 @@
             border-radius: 20px;
             cursor: pointer;  
         }
-        .buttons .hire-me:hover {
+        .hire-me:hover {
             background-color: white;
             color: grey;
             border: none;

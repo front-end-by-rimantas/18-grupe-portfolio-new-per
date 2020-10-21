@@ -34,12 +34,19 @@
 .content-blog h4 {
     padding: 20px;
     padding-top: 40px;
+    text-transform: uppercase;
 }
+
 .content-blog h4 a {
     text-decoration: none;
     color: black;
     font-weight: normal;
 }
+
+.content-blog h4 a:hover {
+    color: rgb(170, 119, 206);
+}
+
 .content-blog p {
     padding: 10px;
     padding-bottom: 20px;
