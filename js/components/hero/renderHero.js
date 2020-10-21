@@ -1,15 +1,13 @@
-import {generateHero} from './generateHero.js';
+import {renderAllContentHero} from './renderAllContentHero.js';
 
 function renderHero(data){
     
     let HTML = '';
     const heroDOM = document.querySelector(data.selector);
-    const heroCount = data.hero.length;
-
-    for(let i = 0; i < heroCount; i++){
-        const hero = data.hero[i];
-        HTML += generateHero(hero, data.socials);
-    }
+        /**
+         * renderAllContentHero funkcija gavo data - duomenis, ji poto perduodam duomenis kitoms funkcijoms
+         */
+        HTML = renderAllContentHero(data);
 
     if(HTML === ''){
         console.error('Error: nera hero teksto.');

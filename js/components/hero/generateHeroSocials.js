@@ -1,15 +1,22 @@
+/**
+ * 
+ * cia generateHeroSocials perduoda gautus duomenys is data->socials[array->{objektai}], reikia i socials arreju ilist kad issitraukt objektu parametrus(icon) naudojam for loop
+ */
 function generateHeroSocials(socials) {
-    
-    let socialsHTML = '';
-    const totalSoc = socials.length;
 
-    for(let i = 0; i < totalSoc; i++){
-        const socGenerate = socials[i];
-        socialsHTML += `<a href="#"><i class="${socGenerate.icon}"></i></a>`;
+    if (!socials) {
+        return '';
     }
- 
+
+    let HTML = '';
+
+    for (let i = 0; i < socials.length; i++) {
+
+        HTML += `<a href="#"><i class="${socials[i].icon}"></i></a>`;
+    }
+
     return `<div class="socials">
-                ${socialsHTML}
+                ${HTML}
             </div>`;
 }
 
