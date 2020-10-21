@@ -3,6 +3,7 @@
 }
 .blog h2 {
     padding-bottom: 20px;
+    font-weight: normal;
     text-transform: uppercase;
 }
 .blog h4 {
@@ -10,6 +11,7 @@
     text-transform: uppercase;
     font-weight: normal;
     padding-top: 15px;
+    padding-bottom: 15px;
 
 }
 .blog p {

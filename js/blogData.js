@@ -40,6 +40,20 @@ const blogData = [
             name: 'JACK DANIEL',
             date: '25 JUNE 2017'
         }
+    },
+    {
+        id: 4,
+        linksubject: './blog/index.html',
+        image: './img/blog/3.jpg',
+        subject: 'development',
+        title: '10 secrets tips for web design',
+        linktitle: './blog/index.html',
+        text: 'Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, incid idunt ut labore et.',
+        author: {
+            portrait: './img/blog/p3.jpg',
+            name: 'JACK DANIEL',
+            date: '25 JUNE 2017'
+        }
     }
 ];
 
