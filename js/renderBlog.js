@@ -5,9 +5,11 @@ function renderBlog(blogData) {
     for (let i = 0; i < numberBlog; i++) {
         const singleBlog = blogData[i];
         const HTML = renderSingleBlog(singleBlog);
-        const selector = `.blog${singleBlog.id}`;
+        // const selector = `.blog${singleBlog.id}`;
+        // const blogAllDOM = document.querySelector(`.content-blog`)
         const blogDOM = document.querySelector(`.blog${singleBlog.id}`);
         blogDOM.innerHTML = HTML;
+        // blogAllDOM.innerHTML = HTML;
     }
 };
 export default renderBlog;
