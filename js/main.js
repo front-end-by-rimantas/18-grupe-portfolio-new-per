@@ -1,6 +1,8 @@
 // header import
 // hero import
-import { herotypeanim } from './utils/typeanimation.js';
+import {heroData} from './data/hero.js';
+import {renderHero} from './components/hero/renderHero.js';
+import {herotypeanim} from './utils/typeanimation.js';
 // about import
 // my skills import
 // my resume import
@@ -20,7 +22,8 @@ import blogData from './blogData.js';
 
 // header logic
 // hero logic
-herotypeanim();
+renderHero(heroData);
+herotypeanim(heroData);
 // about logic
 // my skills logic
 // my resume logic
