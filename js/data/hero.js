@@ -2,8 +2,8 @@ const heroData = {
     selector: '#hero_block',
     hero: {
             hi: 'Welcome',
-            iam: 'I AM JOHN DOE'
-            // skills: ["UI/UX DESIGNER", "PHOTOGRAPHER", "WEB DEVELOPER"]
+            iam: 'I AM JOHN DOE',
+            skills: ["UI/UX DESIGNER", "PHOTOGRAPHER", "WEB DEVELOPER"]
         }
     ,
     socials: [

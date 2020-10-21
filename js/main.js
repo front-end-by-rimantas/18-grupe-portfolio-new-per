@@ -21,7 +21,7 @@ import {carousel} from './utils/carousel.js';
 // header logic
 // hero logic
 renderHero(heroData);
-herotypeanim();
+herotypeanim(heroData);
 // about logic
 // my skills logic
 // my resume logic

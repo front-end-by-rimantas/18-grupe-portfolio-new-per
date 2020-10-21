@@ -11,7 +11,7 @@ function renderAllContentHero(data) {
     return `<div class="info col-12">
                 ${generateHero(data.hero)}
                 <ul>
-                <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+                    <span class="typed-text"></span><span class="cursor">&nbsp;</span>
                 </ul>
                 ${generateHeroSocials(data.socials)}
             </div> `

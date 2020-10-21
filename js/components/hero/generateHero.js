@@ -1,6 +1,6 @@
 /**
- * 
- * cia generateHero perduoda duomenis is data->hero, hero hi ir hero iam
+ * cia data = data>hero
+ * generateHero perduoda duomenis is data->hero, hero hi ir hero iam
  */
 function generateHero(data) {
 
