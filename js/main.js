@@ -1,8 +1,8 @@
 // header import
 // hero import
-import {heroData} from './data/hero.js';
-import {renderHero} from './components/hero/renderHero.js';
-import {herotypeanim} from './utils/typeanimation.js';
+import { heroData } from './data/hero.js';
+import { renderHero } from './components/hero/renderHero.js';
+import { herotypeanim } from './utils/typeanimation.js';
 // about import
 // my skills import
 // my resume import
@@ -14,6 +14,8 @@ import { servicesData } from './data/services.js';
 import { renderServices } from './components/services/renderServices.js';
 //my portfolio import 
 // testimonial import
+import { testimonialsData } from './data/testimonials.js';
+import { renderTestimonials } from './components/testimonials/renderTestimonials.js';
 import { carousel } from './utils/carousel.js';
 // // latest blog import
 import renderBlog from './renderBlog.js';
@@ -33,6 +35,7 @@ renderResume(resumeInfo);
 renderServices(servicesData);
 //my portfolio logic 
 // testimonial logic
+renderTestimonials(testimonialsData);
 carousel();
 // latest blog logic
 renderBlog(blogData);
