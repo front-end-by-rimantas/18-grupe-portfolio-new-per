@@ -40,11 +40,11 @@
     padding: 15px;
     border: none;
     background-color: #F4F5F8;
-    width: 70%;
+    width: 100%;
     outline: none;
 }
 .form-msg {
-    display: inline-block;
+    display: table;
     float: left;
     width: 100%;
     margin-bottom: 10px;
@@ -104,9 +104,13 @@ button:hover{
     border-radius: 0;
     padding: 15px;
     background-color: #F4F5F8;
-    width: 86%;
+    width: 100%;
 }
 .fa.fa-comment {
     padding-bottom: 40px;
     padding-top: 40px
+}
+.form-msg label {
+    width: 1%;
+    display: table-cell;
 }
