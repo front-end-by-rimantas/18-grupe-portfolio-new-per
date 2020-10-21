@@ -13,6 +13,8 @@ import { renderResume } from './components/resume/renderResume.js';
 import { servicesData } from './data/services.js';
 import { renderServices } from './components/services/renderServices.js';
 //my portfolio import 
+import {dataPortfolio} from '../js/data/dataPortfolio.js';
+import {renderPortfolio} from '../js/components/portfolio/renderPortfolio.js';
 // testimonial import
 import { carousel } from './utils/carousel.js';
 // // latest blog import
@@ -32,6 +34,7 @@ renderResume(resumeInfo);
 // my service logic
 renderServices(servicesData);
 //my portfolio logic 
+renderPortfolio(dataPortfolio);
 // testimonial logic
 carousel();
 // latest blog logic
