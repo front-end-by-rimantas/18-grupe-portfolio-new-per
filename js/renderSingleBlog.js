@@ -1,4 +1,4 @@
-import blogAuthor from './blogAuthor.js';
+import blogAuthor from '../js/blogAuthor.js';
 
 function renderSingleBlog(data) {
     return `<a class='blog-link1' href='${data.linksubject}'>${data.subject}</a>
