@@ -1,0 +1,25 @@
+.blog {
+    text-align: center;
+}
+.blog h2 {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.blog h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-top: 15px;
+
+}
+.blog p {
+    font-size: 16px;
+    color: gray;
+
+}
+
+.blog .author {
+    width: 50%;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}

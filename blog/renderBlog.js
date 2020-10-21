@@ -8,7 +8,7 @@ function renderBlog(blogData) {
         // const selector = `.blog${singleBlog.id}`;
         // const blogAllDOM = document.querySelector(`.content-blog`)
         const blogDOM = document.querySelector(`.blog`);
-        blogDOM.innerHTML = HTML;
+        blogDOM.innerHTML += HTML;
         // blogAllDOM.innerHTML = HTML;
     }
 };
