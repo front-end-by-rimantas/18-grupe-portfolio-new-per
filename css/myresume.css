@@ -99,3 +99,9 @@ ul> .liRes h5{
     border: 2px solid #d6b161;
     background-color: #2e353e;
 }
+@media (max-width: 500px ) {
+
+    .container > .row > .col-xs-12 {
+        grid-column: span 12;
+    }
+}
