@@ -4,7 +4,7 @@ function herotypeanim(data) {
 
   const textArray = data.hero.skills;
   const typingDelay = 50;
-  const erasingDelay = 100;
+  const erasingDelay = 50;
   const newTextDelay = 1500; // Delay between current and next text
   let textArrayIndex = 0;
   let charIndex = 0;
