@@ -6,7 +6,7 @@ const blogData = [
         subject: 'UX/UI',
         title: 'Light trails on highway',
         linktitle: './blog/index.html',
-        text: 'Quisque dui at erat auctor pulvinar nisl felis, gravida et aliquam vitae, aliquet quis nibh.',
+        text: 'Quisque dui at erat auctor pulvinar nisl felis, gravida et mmm mmmm nnnnnn mmmmm ssss mmm mmmmm jjjjj ggggg sssss ddddd eeeeee mmm mmmmm mmmm mmm bbbb nnn kkkkk mmmmff ffffmmmmmmmm, aliquet quis nibh.',
         author: {
             portrait: './img/blog/p1.jpg',
             name: 'JACK DANIEL',
