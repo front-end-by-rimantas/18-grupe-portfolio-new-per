@@ -1,5 +1,0 @@
-function generateTestimonialButton(){
-
-}
-
-export {generateTestimonialButton}

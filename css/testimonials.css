@@ -77,8 +77,15 @@
     font-weight: 100;
 }
 
-.testimonials .slideButtons button {
+.testimonials > .row > .review > .slideButtons {
     display: inline-block;
+    width: 100%;
+}
+
+.testimonials > .row > .review > .slideButtons > button {
+    display: inline-block;
+    position: relative;
+    z-index: 200;
     width: 15px;
     height: 4px;
     background-color: #869791;
@@ -90,7 +97,7 @@
     outline: none;
 }
 
-.testimonials .slideButtons>button.activeBar {
+.testimonials > .row > .review > .slideButtons>button.activeBar {
     width: 30px;
     background-color: #9c27b0;
 }

@@ -4,7 +4,7 @@ function renderResume(info) {
     let createdLines = 0;
     let HTMLright = '';
     let HTMLleft = '';
-    console.log(info);
+    // console.log(info);
 
     for (let i = 0; i < info.length; i++) {
         if (createdLines === maxLines) {
