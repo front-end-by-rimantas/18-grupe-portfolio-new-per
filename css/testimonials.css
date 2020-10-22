@@ -11,7 +11,6 @@
     display: inline-block;
     background-color: rgba(19, 19, 19, 0.6);
     width: 100%;
-    height: 100%;
     margin: 0 auto;
     min-height: 300px;
     max-width: 900px;
@@ -78,8 +77,11 @@
 }
 
 .testimonials > .row > .review > .slideButtons {
+    position: absolute;
     display: inline-block;
     width: 100%;
+    bottom: 0;
+    left: 0;
 }
 
 .testimonials > .row > .review > .slideButtons > button {
@@ -87,7 +89,7 @@
     position: relative;
     z-index: 200;
     width: 15px;
-    height: 4px;
+    height: 6px;
     background-color: #869791;
     margin: 0 2px;
     padding: 2px;

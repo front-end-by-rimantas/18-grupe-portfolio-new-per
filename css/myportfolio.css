@@ -30,7 +30,7 @@
     text-align: center;
     color: #808080;
 }
-    button {
+.portfolio .portf-links .col-12> button {
         background: transparent;
         border: none;
         justify-content: center;
