@@ -33,33 +33,11 @@
     <!-- Header -->
     <header></header>
     <!-- Hero -->
-    <div class="hero overlay" style="background-position: 50% 0px;">
+    <div class="hero overlay">
         <div class="container">
             <div class="row">
-                <div class="info col-12">
-                    <h3>Welcome</h3>
-                    <h2>I AM JOHN DOE</h2>
-                    <ul>
-                        <span class="typed-text"></span><span class="cursor">&nbsp;</span>
-                    </ul>
-                    <!-- SOCIALS -->
-                    <div class="socials">
-                        <a href="#">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa fa-behance"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa fa-linkedin"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa fa-dribbble"></i>
-                        </a>
-                    </div>
+                <div id="hero_block" class="col-12">
+
                 </div>
             </div>
         </div>
@@ -200,7 +178,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-6 icon-leftRes">
+            <div class="col-6 icon-leftRes col-xs-12">
                 <div class="fa fa-book"></div>
                 <ul class="leftRes">
                     <li class="liRes">
@@ -220,7 +198,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-6 icon-rightRes">
+            <div class="col-6 icon-rightRes col-xs-12">
                 <div class="fa fa-briefcase"></div>
                 <ul class="rightRes">
                     <li class="liRes">
@@ -444,7 +422,7 @@
             <div class="col-7 col-lg-6 col-md-12 col-sm-12">
                 <div class="full-contact">
                     <div class="just-title">
-                        <h4 class="title"><span>Get</span> In Touch</h4>
+                        <h4 class="titleContact"><span>Get</span> In Touch</h4>
                     </div>
                     <form>
                         <div class="form-msg">
@@ -457,7 +435,8 @@
                         </div>
                         <div class="form-msg">
                             <label for="messasge_me"><i class="fa fa-comment" aria-hidden="true"></i></label>
-                            <input id="messasge_me" type="text" placeholder="Message For Me" class="inputs">
+                            <!-- <input id="messasge_me" type="text" placeholder="Message For Me" class="inputs"> -->
+                            <textarea class="textarea" name="Message" id="messasge_me" placeholder="Message For Me" rows="4"></textarea>
                         </div>
                         <div class="button">
                             <button>SEND MESSAGE</button>

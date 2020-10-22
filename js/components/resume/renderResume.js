@@ -1,4 +1,3 @@
-import resumeInfo from '../../data/resumeInfo.js'
 function renderResume(info) {
     const maxLines = 6;
     let createdLines = 0;
