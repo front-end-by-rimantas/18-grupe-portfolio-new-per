@@ -1,4 +1,4 @@
-.portfolio {
+/* .portfolio {
     text-align: center;
     
     
@@ -38,4 +38,130 @@
         padding: 5px;
         color: #808080;
         padding-left: 15px;
+    } */
+    .gallery {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
     }
+        .gallery > .filter {
+            display: inline-block;
+            margin-bottom: 40px;
+        }
+            .gallery > .filter > .item {
+                /* display: inline-block;
+                padding: 5px 20px;
+                font-size: 13px;
+                line-height: 20px;
+                text-transform: uppercase;
+                font-weight: bold;
+                cursor: pointer;
+                border-radius: 15px;
+                background-color: none; */
+                display: inline-block;
+                position: relative;
+                margin: 0px 10px;
+                padding: 5px 5px;
+                font-size: 20px;
+                text-transform: capitalize;
+                letter-spacing: 2px;
+                color: #777;
+                cursor: pointer;
+                -webkit-transition: all .5s;
+                transition: all .5s;
+                
+            }
+                .gallery > .filter > .item + .item {
+                    margin-left: 20px;
+                }
+                .gallery > .filter > .item:hover {
+                    color: #9c27b0;
+                }
+                .gallery > .filter > .item:hover:after {
+                    content: '';
+                    position: absolute;
+                    left: 45%;
+                    top: 30px;
+                    width: 5px;
+                    height: 5px;
+                    border-radius: 50%;
+                    background-color: #9c27b0;
+                    display: block;
+                }
+                .gallery > .filter > .item.active {
+                    color: #9c27b0;
+                    border-top: 1px solid #f7f7f7;
+                    -webkit-transition: all .5s;
+                    transition: all .5s;
+                }
+                .gallery > .filter > .item.active::after{
+                    content: '';
+                    position: absolute;
+                    left: 45%;
+                    top: 30px;
+                    width: 5px;
+                    height: 5px;
+                    border-radius: 50%;
+                    background-color: #9c27b0;
+                    display: block;
+                }
+    
+    
+        .gallery > .list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            grid-auto-flow: dense;
+            }
+            .gallery > .list > .item {
+                grid-row: span 1 / auto;
+                position: relative;
+                border-radius: 10px;
+                overflow: hidden;
+                height: 300px;
+            }
+                .gallery > .list > .item.hide {
+                    display: none;
+                }
+            /* .gallery > .list > .item.size-2 {
+                grid-row: span 2 / auto;
+            } */
+            .gallery .item > .hover {
+                display: inline-block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                right: 50%;
+                bottom: 50%;
+                overflow: hidden;
+                background-color: #3339;
+                transition: all 0.5s;
+            }
+            .gallery .item:hover > .hover {
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+            .gallery .item > .hover > a {
+                display: inline-block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                overflow: hidden;
+                text-align: center;
+                text-decoration: none;
+                color: #fff;
+                font-size: 0px;
+                line-height: 0;
+                transition: all 0.5s;
+            }
+            .gallery .item:hover > .hover > a {
+                font-size: 30px;
+                line-height: 30px;
+            }
+            img {
+            object-fit: cover;
+            width: 100%
+            }
