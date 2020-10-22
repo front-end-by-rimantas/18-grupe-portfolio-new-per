@@ -18,7 +18,7 @@
     overflow: hidden;
 }
 
-.testimonials .review ul {
+.testimonials .review .review-track {
     display: inline-block;
     width: 100%;
     height: 100%;
@@ -29,7 +29,7 @@
     transition: ease 0.8s;
 }
 
-.testimonials .review .review-track li {
+.testimonials .review .review-track .client-review {
     position: absolute;
     height: 100%;
     width: 100%;
