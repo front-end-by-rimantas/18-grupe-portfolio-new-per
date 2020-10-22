@@ -34,7 +34,7 @@ const blogData = [
         subject: 'development',
         title: '10 secrets tips for web design',
         linktitle: './blog/index.html',
-        text: 'Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, incid idunt ut labore et.',
+        text: 'Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, incid idunt ut labore et.Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, incid idunt ut labore et.',
         author: {
             portrait: './img/blog/p3.jpg',
             name: 'JACK DANIEL',
@@ -48,7 +48,7 @@ const blogData = [
         subject: 'development',
         title: '10 secrets tips for web design',
         linktitle: './blog/index.html',
-        text: 'Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, incid idunt ut labore et.',
+        text: 'Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, incid idunt ut labore et.Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, incid idunt ut labore et.Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, incid idunt ut labore et.Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, incid idunt ut labore et.',
         author: {
             portrait: './img/blog/p3.jpg',
             name: 'JACK DANIEL',
