@@ -36,7 +36,7 @@ renderServices(servicesData);
 //my portfolio logic 
 // testimonial logic
 renderTestimonials(testimonialsData);
-carousel(testimonialsData);
+carousel();
 // latest blog logic
 renderBlog(blogData);
 // contact logic
