@@ -8,7 +8,9 @@ function renderTestimonials(data) {
         HTML += renderSingleTestimonial(review);
     }
     
-    return testimonialDOM.innerHTML = HTML;
+    return testimonialDOM.innerHTML = `<div class="review-track">
+                                        ${HTML}
+                                    </div>`;
     
 }
 
