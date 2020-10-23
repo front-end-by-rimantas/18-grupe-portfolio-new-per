@@ -17,12 +17,14 @@ function carousel() {
         if (!targetDot) return;
 
         const currentDot = dotsNav.querySelector('.activeBar');
+
         const targetIndex = dots.findIndex(dot => dot === targetDot);
         const targetSlide = slides[targetIndex];
 
         track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
         currentDot.classList.remove('activeBar');
         targetDot.classList.add('activeBar');
+
     });
 }
 

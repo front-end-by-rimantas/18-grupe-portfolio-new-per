@@ -1,12 +1,15 @@
 import {generateRating} from './generateRating.js';
 
-function renderSingleTestimonial(data) {
+function renderSingleTestimonial(data, reviews) {
 
     if(!data) {
         return '';
     }
-    
-    return `<div class="client-review">
+
+    const itemWidth = 100 / reviews.reviews.length;
+
+    return `<div class="client-review" style="width: ${itemWidth}%;">
+                <div class="space">
                     <h4>${data.title}</h4>
                     <div class="rating">
                         ${generateRating(data)}
@@ -14,6 +17,7 @@ function renderSingleTestimonial(data) {
                     <p>${data.text}</p>
                     <h3>${data.fullName}</h3>
                     <h2>${data.role}</h2>
+                    </div>
                 </div>`;
 }
 
