@@ -6,7 +6,7 @@ function renderSingleTestimonial(data) {
         return '';
     }
     
-    return `<div class="client-review col-12">
+    return `<div class="client-review">
                     <h4>${data.title}</h4>
                     <div class="rating">
                         ${generateRating(data)}

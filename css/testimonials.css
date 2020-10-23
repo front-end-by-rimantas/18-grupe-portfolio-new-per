@@ -1,43 +1,41 @@
 .testimonials {
-    text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.575)), url(../img/client.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    text-align: center;
 }
 
-.testimonials .review {
-    position: relative;
+.testimonials .row .carousel {
     display: inline-block;
-    background-color: rgba(19, 19, 19, 0.6);
     width: 100%;
-    margin: 0 auto;
-    min-height: 300px;
-    max-width: 900px;
+}
+
+.testimonials .row .carousel .content {
+    display: inline-block;
+    width: 80%;
+    height: 300px;
     overflow: hidden;
 }
 
-.testimonials .review .review-track {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    list-style: none;
+.testimonials .row .carousel .content .list {
     position: relative;
-    transition: ease 0.8s;
-}
-
-.testimonials .review .review-track .client-review {
-    position: absolute;
-    height: 100%;
     width: 100%;
-    top: 0;
-    right: 0;
-    padding: 20px 50px;
+    height: 100%;
+    display: inline-block;
+    transition: all 1s ease 0s;
 }
 
-.testimonials .review .review-track .client-review h4 {
+.testimonials .row .carousel .content .list .client-review {
+    width: 100%;
+    position: absolute;
+    display: inline-block;
+    padding: 30px 70px;
+    background: rgba(19, 20, 20, 0.6);
+    margin-right: 0;
+}
+
+.testimonials .row .carousel .content .list .client-review h4 {
     color: var(--main-color);
     font-size: 14.4px;
     font-family: 'Montserrat';
@@ -45,16 +43,16 @@
     padding: 10px;
 }
 
-.testimonials .review .review-track .client-review .rating {
+.testimonials .row .carousel .content .list .client-review .rating {
     margin-top: 10px;
 }
 
-.testimonials .review .review-track .client-review .rating i {
+.testimonials .row .carousel .content .list .client-review .rating i {
     font-size: 16px;
     color: #FFD600;
 }
 
-.testimonials .review .review-track .client-review p {
+.testimonials .row .carousel .content .list .client-review p {
     color: #ccc;
     padding-top: 10px;
     margin-bottom: 20px;
@@ -62,7 +60,7 @@
     line-height: 26px;
 }
 
-.testimonials .review .review-track .client-review h3 {
+.testimonials .row .carousel .content .list .client-review h3 {
     font-size: 15px;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -70,36 +68,33 @@
     font-weight: 200;
 }
 
-.testimonials .review .review-track .client-review h2 {
+.testimonials .row .carousel .content .list .client-review h2 {
     font-size: 17px;
     color: #ccc;
     font-weight: 100;
 }
 
-.testimonials > .row > .review > .slideButtons {
-    position: absolute;
+.testimonials .row .slideButtons {
     display: inline-block;
     width: 100%;
-    bottom: 0;
-    left: 0;
+    margin-top: 20px;
 }
 
-.testimonials > .row > .review > .slideButtons > button {
+.testimonials .row .slideButtons>button {
     display: inline-block;
-    position: relative;
-    z-index: 200;
     width: 15px;
-    height: 6px;
+    height: 4px;
     background-color: #869791;
-    margin: 0 2px;
+    margin: 0 5px;
     padding: 2px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     outline: none;
+    transition: all .3s;
 }
 
-.testimonials > .row > .review > .slideButtons>button.activeBar {
+.testimonials .row .slideButtons>button.activeBar {
     width: 30px;
     background-color: #9c27b0;
 }

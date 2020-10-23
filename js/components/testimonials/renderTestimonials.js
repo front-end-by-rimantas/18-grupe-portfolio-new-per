@@ -15,14 +15,16 @@ function renderTestimonials(data) {
         dotHTML = `<button class="dot activeBar"></button>`
         dotHTML += `<button class="dot"></button>`.repeat(total - 1);
         
-    return testimonialDOM.innerHTML = `<div class="review-track">
-                                        ${HTML}
-                                    </div>
-                                    <div class="slideButtons col-12">
-                                    ${dotHTML}
-                                    </div>`;
-                                    
-    
+    return testimonialDOM.innerHTML = `<div class="carousel">
+                                            <div class="content">
+                                                <div class="list">
+                                                    ${HTML}
+                                                </div>
+                                            </div>
+                                            <div class="slideButtons col-12">
+                                                ${dotHTML}
+                                            </div>
+                                        </div>`;
 }
 
 export { renderTestimonials }
