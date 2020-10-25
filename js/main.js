@@ -14,7 +14,6 @@ import { servicesData } from './data/services.js';
 import { renderServices } from './components/services/renderServices.js';
 //my portfolio import 
 import { dataPortfolio } from '../js/data/portfolio.js';
-// import {renderPortfolio} from '../js/components/portfolio/renderPortfolio.js';
 import { Gallery } from './components/portfolio/Gallery.js';
 // testimonial import
 import { testimonialsData } from './data/testimonials.js';

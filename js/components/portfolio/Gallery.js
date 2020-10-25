@@ -68,7 +68,6 @@ class Gallery {
             defaultImg: this.defaultImg
         });
     }
-
 }
 
 export { Gallery }

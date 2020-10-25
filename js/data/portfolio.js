@@ -5,56 +5,56 @@ const dataPortfolio = {
     data: [
         {
             photo: '1.jpg',
-            title: 'kava2',
+            title: 'Coffe-pack',
             link: '#',
             tags: 'video',
             size: 1
         },
         {
             photo: '2.jpg',
-            title: 'popierius',
+            title: 'Popierius',
             link: '#',
             tags: 'design',
             size: 2
         },
         {
             photo: '3.jpg',
-            title: 'Kava',
+            title: 'Coffe',
             link: '#',
             tags: 'photo',
             size: 1
         },
         {
             photo: '4.jpg',
-            title: 'ausines',
+            title: 'Ausines',
             link: '#',
             tags: 'design',
             size: 2
         },
         {
             photo: '5.jpg',
-            title: 'butelys',
+            title: 'Bottle',
             link: '#',
             tags: 'photo',
-            size: 1
+            size: 2
         },
         {
             photo: '6.jpg',
-            title: 'dazai',
+            title: 'Dazai',
             link: '#',
             tags: 'brand',
             size: 1
         },
         {
             photo: '7.jpg',
-            title: 'kola',
+            title: 'Coke',
             link: '#',
             tags: 'brand',
-            size: 2
+            size: 1
         },
         {
             photo: '8.jpg',
-            title: 'ufo',
+            title: 'Ufo',
             link: '#',
             tags: 'video',
             size: 3
