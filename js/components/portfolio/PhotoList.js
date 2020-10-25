@@ -23,6 +23,21 @@ class PhotoList {
         for(let item of this.data){
             HTML += `<div class="item ${item.size === 2 ? 'cell-2' : ''}${item.size === 3 ? 'cell-3' : ''}">
                         <img src="${this.imgPath + item.photo}" alt="${item.title}">
+                        <div class="portfolio-hover">
+                            <div class="cap">
+                                <h6>${item.title}</h6>
+                                <span class="icon">
+                                    <a href="#">
+                                        <span class="zmdi zmdi-link"></span>
+                                    </a>
+                                </span>
+                                <span class="icon link">
+                                    <a href="#">
+                                        <span class="zmdi zmdi-gps-dot"></span>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
                     </div>`;
         }
 

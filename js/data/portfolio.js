@@ -5,7 +5,7 @@ const dataPortfolio = {
     data: [
         {
             photo: '1.jpg',
-            title: 'Coffe-pack',
+            title: 'Coffe - pack',
             link: '#',
             tags: 'video',
             size: 1

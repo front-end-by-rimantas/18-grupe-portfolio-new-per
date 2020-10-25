@@ -16,7 +16,7 @@
     letter-spacing: 2px;
     color: #777;
     cursor: pointer;
-    transition: all .9s;
+    transition: all .5s;
     position: relative;
 }
 
@@ -66,6 +66,7 @@
     overflow: hidden;
     border-radius: 10px;
     transition: all .5s;
+    position: relative;
 }
 
 .portfolio > .list > .item.hidden {
@@ -86,11 +87,48 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
-    transition: all .5s;
 }
 
 .portfolio>.list>.item:hover {
     border-radius: 4px;
-    background: rgba(255, 255, 255, 0.5);
     border: 1px solid #f7f7f7;
+}
+
+.portfolio>.list>.item>.portfolio-hover {
+    display: inline-block;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.95);
+    top: 15px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.portfolio>.list>.item>.portfolio-hover:hover {
+    display: block;
+}
+
+.portfolio>.list>.item>.portfolio-hover>.cap {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.portfolio>.list>.item>.portfolio-hover>.cap>h6 {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.portfolio>.list>.item>.portfolio-hover>.cap>span>a {
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+    color: #9c27b0;
 }
