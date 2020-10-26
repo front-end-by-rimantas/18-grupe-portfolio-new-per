@@ -1,4 +1,5 @@
 "use strict";
+import { renderHeader, renderNav } from './header.js'
 
 const header = document.querySelector('header');
 const navLink = document.querySelectorAll('.nav-a');
@@ -27,3 +28,4 @@ window.addEventListener("scroll", (e) => {
         headerImg.classList.remove('logo2');
     }
 });
+export { header, navLink, headerImg }

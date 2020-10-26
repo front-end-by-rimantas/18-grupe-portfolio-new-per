@@ -1,3 +1,4 @@
+import { nav } from '../../data/header.js';
 function renderHeader() {
     let HTML = '';
 
@@ -46,3 +47,5 @@ menuBtn.addEventListener('click', () => {
         menuOpen = false;
     }
 });
+
+export { renderHeader, renderNav }
