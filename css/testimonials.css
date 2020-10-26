@@ -17,20 +17,20 @@
     overflow: hidden;
 }
 
-.testimonials .row .carousel .content .list {
+.testimonials .row .carousel .content .carousel-list {
     display: inline-block;
     transition: all 1s ease 0s;
 }
 
-.testimonials .row .carousel .content .list * {
+.testimonials .row .carousel .content .carousel-list * {
     display: inline-block;
 }
 
-.testimonials .row .carousel .content .list .client-review {
+.testimonials .row .carousel .content .carousel-list .client-review {
    
 }
 
-.testimonials .row .carousel .content .list .client-review .space {
+.testimonials .row .carousel .content .carousel-list .client-review .space {
     display: inline-block;
     width: 100%;
     text-align: center;
@@ -38,7 +38,7 @@
     background: rgba(19, 20, 20, 0.6);
 }
 
-.testimonials .row .carousel .content .list .client-review h4 {
+.testimonials .row .carousel .content .carousel-list .client-review h4 {
     display: inline-block;
     width: 100%;
     color: var(--main-color);
@@ -48,20 +48,20 @@
     padding: 10px;
 }
 
-.testimonials .row .carousel .content .list .client-review .rating {
+.testimonials .row .carousel .content .carousel-list .client-review .rating {
     display: inline-block;
     width: 100%;
     margin-top: 10px;
 }
 
-.testimonials .row .carousel .content .list .client-review .rating i {
+.testimonials .row .carousel .content .carousel-list .client-review .rating i {
     /* display: inline-block; */
     /* width: 100%; */
     font-size: 16px;
     color: #FFD600;
 }
 
-.testimonials .row .carousel .content .list .client-review p {
+.testimonials .row .carousel .content .carousel-list .client-review p {
     display: inline-block;
     width: 100%;
     color: #ccc;
@@ -71,7 +71,7 @@
     line-height: 26px;
 }
 
-.testimonials .row .carousel .content .list .client-review h3 {
+.testimonials .row .carousel .content .carousel-list .client-review h3 {
     display: inline-block;
     width: 100%;
     font-size: 15px;
@@ -81,7 +81,7 @@
     font-weight: 200;
 }
 
-.testimonials .row .carousel .content .list .client-review h2 {
+.testimonials .row .carousel .content .carousel-list .client-review h2 {
     display: inline-block;
     width: 100%;
     font-size: 17px;
