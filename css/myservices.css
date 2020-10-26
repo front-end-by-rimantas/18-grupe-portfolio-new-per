@@ -49,7 +49,7 @@
     margin-bottom: 10px;
 }
 
-.services-items span:hover {
+.services-items:hover span {
     background-color: #9c27b0;
     box-shadow: 20px 20px 50px grey;
     color: white;
