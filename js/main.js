@@ -9,12 +9,14 @@ import { herotypeanim } from './utils/typeanimation.js';
 import { resumeInfo } from './data/resumeInfo.js';
 import { renderResume } from './components/resume/renderResume.js';
 // counter import
+import { dataCounter } from './data/counter.js';
+import { Counter } from './components/counter/Counter.js';
 // my service import
 import { servicesData } from './data/services.js';
 import { renderServices } from './components/services/renderServices.js';
 //my portfolio import 
-import {dataPortfolio} from '../js/data/dataPortfolio.js';
-import {renderPortfolio} from '../js/components/portfolio/renderPortfolio.js';
+import { dataPortfolio } from '../js/data/dataPortfolio.js';
+import { renderPortfolio } from '../js/components/portfolio/renderPortfolio.js';
 // testimonial import
 import { testimonialsData } from './data/testimonials.js';
 import { renderTestimonials } from './components/testimonials/renderTestimonials.js';
@@ -33,6 +35,7 @@ herotypeanim(heroData);
 // my resume logic
 renderResume(resumeInfo);
 // counter logic
+new Counter(dataCounter);
 // my service logic
 renderServices(servicesData);
 //my portfolio logic 
