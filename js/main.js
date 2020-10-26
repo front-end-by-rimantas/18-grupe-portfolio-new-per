@@ -1,7 +1,7 @@
 // header import
-import { nav } from './data/header.js'
-import { header, navLink, headerImg } from './components/header/headerscroll.js'
-import { renderHeader, renderNav } from './components/header/header.js'
+import { nav } from './data/header.js';
+import { header, navLink, headerImg } from './components/header/headerscroll.js';
+import { renderHeader, renderNav } from './components/header/header.js';
 
 // hero import
 import { heroData } from './data/hero.js';
@@ -17,8 +17,8 @@ import { renderResume } from './components/resume/renderResume.js';
 import { servicesData } from './data/services.js';
 import { renderServices } from './components/services/renderServices.js';
 //my portfolio import 
-import { dataPortfolio } from '../js/data/dataPortfolio.js';
-import { renderPortfolio } from '../js/components/portfolio/renderPortfolio.js';
+import { dataPortfolio } from '../js/data/portfolio.js';
+import { Gallery } from './components/portfolio/Gallery.js';
 // testimonial import
 import { testimonialsData } from './data/testimonials.js';
 import { renderTestimonials } from './components/testimonials/renderTestimonials.js';
@@ -42,7 +42,8 @@ renderResume(resumeInfo);
 // my service logic
 renderServices(servicesData);
 //my portfolio logic 
-renderPortfolio(dataPortfolio);
+// renderPortfolio(dataPortfolio);
+new Gallery(dataPortfolio);
 // testimonial logic
 renderTestimonials(testimonialsData);
 carousel();
