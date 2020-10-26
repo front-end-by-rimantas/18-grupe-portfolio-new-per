@@ -40,3 +40,8 @@
         padding-top: 60px;
         padding-bottom: 40px;
     }
+    @media(max-width:750px) {
+        .blog .author {
+        width: 100%;
+        }
+    }
