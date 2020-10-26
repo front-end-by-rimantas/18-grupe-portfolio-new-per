@@ -49,6 +49,10 @@ class Gallery {
                 </div>`;
     }
 
+    contentUpdate(tag) {
+        this.photoListObj.update(tag);
+    }
+
     render() {
         this.DOM.innerHTML = this.generateHTML();
 
