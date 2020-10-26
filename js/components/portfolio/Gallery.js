@@ -42,10 +42,10 @@ class Gallery {
         }
 
         return `<div class="filter">
-                    FILTER
+                    
                 </div>
                 <div class="list">
-                    LIST
+                    
                 </div>`;
     }
 

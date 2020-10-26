@@ -118,7 +118,7 @@
 .portfolio>.list>.item>.portfolio-hover {
     display: inline-block;
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.93);
     top: 15px;
     bottom: 15px;
     left: 15px;
@@ -131,6 +131,27 @@
 
 .portfolio>.list>.item>.portfolio-hover:hover {
     opacity: 1;
+}
+
+.portfolio>.list>.item>.portfolio-hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -90%;
+    width: 50%;
+    height: 100%;
+    border: 1px solid #9c27b0;
+    background: rgba(0, 0, 0, 0.1);
+    transform: skewX(-45deg);
+    transition: ease 1s;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.portfolio>.list>.item>.portfolio-hover:hover::after {
+    opacity: 1;
+    top: 0;
+    right: 220%;
 }
 
 .portfolio>.list>.item>.portfolio-hover>.cap {
@@ -164,4 +185,58 @@
     margin: 0 15px;
     font-size: 20px;
     color: #9c27b0;
+}
+
+@media (max-width: 900px) {
+    .portfolio>.list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 10px;
+        grid-auto-rows: 100px;
+    }
+
+    .portfolio>.list>.item {
+        grid-column: span 2;
+        grid-row: span 2;
+        overflow: hidden;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .portfolio>.list>.item.cell-2 {
+        grid-column: span 2;
+        grid-row: span 4;
+    }
+    
+    .portfolio>.list>.item.cell-3 {
+        grid-column: span 4;
+        grid-row: span 2;
+    }
+}
+
+@media (max-width: 700px) {
+    .portfolio>.list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+        gap: 10px;
+        grid-auto-rows: 100px;
+    }
+
+    .portfolio>.list>.item {
+        grid-column: span 2;
+        grid-row: span 2;
+        overflow: hidden;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .portfolio>.list>.item.cell-2 {
+        grid-column: span 2;
+        grid-row: span 3;
+    }
+    
+    .portfolio>.list>.item.cell-3 {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
 }

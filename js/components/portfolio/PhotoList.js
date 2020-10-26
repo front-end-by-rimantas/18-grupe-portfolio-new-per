@@ -18,7 +18,7 @@ class PhotoList {
 
     generateHTML(){
         let HTML = '';
-        const defaultImg = this.imgPath + this.defaultImg;
+        // const defaultImg = this.imgPath + this.defaultImg;
         
         for(let item of this.data){
             HTML += `<div class="item ${item.size === 2 ? 'cell-2' : ''}${item.size === 3 ? 'cell-3' : ''}">
@@ -32,7 +32,7 @@ class PhotoList {
                                     </a>
                                 </span>
                                 <span class="icon link">
-                                    <a href="#">
+                                    <a href="${this.imgPath + item.photo}" target="_blank">
                                         <span class="zmdi zmdi-gps-dot"></span>
                                     </a>
                                 </span>

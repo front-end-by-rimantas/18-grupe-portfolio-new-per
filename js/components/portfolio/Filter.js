@@ -58,9 +58,8 @@ class Filter {
         })
 
         for (let tag of tagsDOM) {
-            tag.addEventListener('click', (e) => {
+            tag.addEventListener('click', () => {
                 this.PARENT.contentUpdate(tag.innerText);
-
             })
         }
     }
