@@ -5,11 +5,10 @@ function carousel() {
     const dots = Array.from(dotsNav.children);
 
     // const slideWidth = slides[0].getBoundingClientRect().width;
-    
+
     const slideWidth = 100 * 4;
     const setSlidePosition = (slide, index) => {
         slide.style.left = slideWidth * index + '%';
-        console.log(index);
     };
 
     slides.forEach(setSlidePosition);
