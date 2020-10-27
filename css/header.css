@@ -90,9 +90,9 @@ header.active {
                     line-height: 45px;
                 }
                   
-                    .nav-links > .nav-a.nav-b:first-child{
+                    /* .nav-links > .nav-a.nav-b:first-child{
                         color: var(--main-color);
-                    }
+                    } */
                     .nav-links > .nav-a.nav-b:hover {
                         color: var(--main-color);
                         transition: 0.3s;

@@ -18,6 +18,10 @@ function renderHeader() {
 function renderNav(nav) {
     let HTML = '';
 
+    // nav.array.forEach(element => {
+    //     HTML += `<a class="nav-a" href="#${element}">${element}</a>`
+    // });
+
     for (let i = 0; i < nav.length; i++) {
         HTML += `<a class="nav-a" href="#${nav[i]}">${nav[i]}</a>`
     }
