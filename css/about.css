@@ -96,6 +96,7 @@
             border: none;
             border-radius: 20px;
             cursor: pointer;
+            font-size: 12px;
         }
         .download-resume:hover {
             background-color: white;
@@ -109,6 +110,7 @@
             left: 300px;
             float: left;
             background-color: #9c27b0;
+            font-size: 12px;
             color: white;
             padding: 15px;
             border: none;
