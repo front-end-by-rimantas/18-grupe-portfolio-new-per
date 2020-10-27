@@ -1,5 +1,5 @@
 function carousel() {
-    const track = document.querySelector('.list');
+    const track = document.querySelector('.carousel-list');
     const slides = Array.from(track.children);
     const dotsNav = document.querySelector('.slideButtons');
     const dots = Array.from(dotsNav.children);

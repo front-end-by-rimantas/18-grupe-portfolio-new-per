@@ -17,7 +17,7 @@ function renderTestimonials(data) {
         
     return testimonialDOM.innerHTML = `<div class="carousel">
                                             <div class="content">
-                                                <div class="list" style="width: ${listWidth}%;">
+                                                <div class="carousel-list" style="width: ${listWidth}%;">
                                                     ${HTML}
                                                 </div>
                                             </div>

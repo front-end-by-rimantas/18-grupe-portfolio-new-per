@@ -15,8 +15,8 @@ import { Counter } from './components/counter/Counter.js';
 import { servicesData } from './data/services.js';
 import { renderServices } from './components/services/renderServices.js';
 //my portfolio import 
-import { dataPortfolio } from '../js/data/dataPortfolio.js';
-import { renderPortfolio } from '../js/components/portfolio/renderPortfolio.js';
+import { dataPortfolio } from '../js/data/portfolio.js';
+import { Gallery } from './components/portfolio/Gallery.js';
 // testimonial import
 import { testimonialsData } from './data/testimonials.js';
 import { renderTestimonials } from './components/testimonials/renderTestimonials.js';
@@ -39,7 +39,8 @@ new Counter(dataCounter);
 // my service logic
 renderServices(servicesData);
 //my portfolio logic 
-renderPortfolio(dataPortfolio);
+// renderPortfolio(dataPortfolio);
+new Gallery(dataPortfolio);
 // testimonial logic
 renderTestimonials(testimonialsData);
 carousel();
