@@ -1,4 +1,8 @@
 // header import
+import { nav } from './data/header.js';
+import { header, navLink, headerImg } from './components/header/headerscroll.js';
+import { renderHeader, renderNav } from './components/header/header.js';
+
 // hero import
 import { heroData } from './data/hero.js';
 import { renderHero } from './components/hero/renderHero.js';
@@ -27,6 +31,8 @@ import blogData from './blogData.js';
 //contact import
 
 // header logic
+// renderHeader();
+// renderNav(nav);
 // hero logic
 renderHero(heroData);
 herotypeanim(heroData);
