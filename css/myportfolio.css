@@ -1,0 +1,242 @@
+.portfolio-title {
+    text-align: center;
+}
+
+.portfolio-title>h2 {
+    display: inline-block;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #484848;
+    font-size: 36px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.portfolio-title h2 span {
+    color: #9c27b0;
+    border-bottom: 1px solid #9c27b0;
+    padding-bottom: 10px;
+}
+
+.portfolio {
+    margin-bottom: 30px;
+}
+
+.portfolio .filter {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.portfolio .filter .tag {
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0 15px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #777;
+    cursor: pointer;
+    transition: all .5s;
+    position: relative;
+}
+
+.portfolio .filter .tag.active {
+    color: #9c27b0;
+    border-top: 1px solid #ffd3d3;
+    transition: all .5s;
+}
+
+.portfolio .filter .tag.active::after {
+    display: inline-block;
+}
+
+.portfolio .filter .tag:hover {
+    color: #9c27b0;
+}
+
+.portfolio .filter .tag:hover::after {
+    color: #9c27b0;
+    display: inline;
+}
+
+.portfolio .filter .tag::after {
+    color: #9c27b0;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #9c27b0;
+    display: none;
+}
+
+.portfolio>.list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    grid-auto-rows: 150px;
+}
+
+.portfolio>.list>.item {
+    grid-column: span 2;
+    grid-row: span 2;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.portfolio>.list>.item.hidden {
+    display: none;
+}
+
+.portfolio>.list>.item.cell-2 {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+.portfolio>.list>.item.cell-3 {
+    grid-column: span 4;
+}
+
+.portfolio>.list>.item>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* .portfolio>.list>.item:hover {
+    border-radius: 4px;
+    border: 1px solid #f7f7f7;
+} */
+
+.portfolio>.list>.item>.portfolio-hover {
+    display: inline-block;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.93);
+    top: 15px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.portfolio>.list>.item>.portfolio-hover:hover {
+    opacity: 1;
+}
+
+.portfolio>.list>.item>.portfolio-hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -90%;
+    width: 50%;
+    height: 100%;
+    border: 1px solid #9c27b0;
+    background: rgba(0, 0, 0, 0.1);
+    transform: skewX(-45deg);
+    transition: ease 1s;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.portfolio>.list>.item>.portfolio-hover:hover::after {
+    opacity: 1;
+    top: 0;
+    right: 220%;
+}
+
+.portfolio>.list>.item>.portfolio-hover>.cap {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(150%, -50%);
+    transition: ease .5s;
+}
+
+.portfolio>.list>.item>.portfolio-hover:hover>.cap {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.portfolio>.list>.item>.portfolio-hover>.cap>h6 {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.portfolio>.list>.item>.portfolio-hover>.cap>span>a {
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+    color: #9c27b0;
+}
+
+@media (max-width: 900px) {
+    .portfolio>.list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 10px;
+        grid-auto-rows: 100px;
+    }
+
+    .portfolio>.list>.item {
+        grid-column: span 2;
+        grid-row: span 2;
+        overflow: hidden;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .portfolio>.list>.item.cell-2 {
+        grid-column: span 2;
+        grid-row: span 4;
+    }
+    
+    .portfolio>.list>.item.cell-3 {
+        grid-column: span 4;
+        grid-row: span 2;
+    }
+}
+
+@media (max-width: 700px) {
+    .portfolio>.list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+        gap: 10px;
+        grid-auto-rows: 100px;
+    }
+
+    .portfolio>.list>.item {
+        grid-column: span 2;
+        grid-row: span 2;
+        overflow: hidden;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .portfolio>.list>.item.cell-2 {
+        grid-column: span 2;
+        grid-row: span 3;
+    }
+    
+    .portfolio>.list>.item.cell-3 {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+}

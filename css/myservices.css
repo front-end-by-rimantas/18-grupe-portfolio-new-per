@@ -1,0 +1,73 @@
+.text-center {
+    text-align: center;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.bg-services {
+    position: relative;
+    background-color: #f4f5f8;
+}
+
+.bg-services .row div h2 {
+    display: inline-block;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #484848;
+    font-size: 30px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #fff;
+}
+
+.bg-services .row h2 span {
+   color: #9c27b0;
+   border-bottom: 1px solid #9c27b0;
+   padding-bottom: 10px;
+}
+
+.services-items {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 20px;
+    line-height: 30px;
+}
+
+.services-items span {
+    display: inline-block;
+    color: #9c27b0;
+    font-size: 40px;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.services-items:hover span {
+    background-color: #9c27b0;
+    box-shadow: 20px 20px 50px grey;
+    color: white;
+    transition: ease 1s;
+}
+
+.services-items h3 {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.bg-services::after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background-color: white;
+    left: 5%;
+    top: 54%;
+}

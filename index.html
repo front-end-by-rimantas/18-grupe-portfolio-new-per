@@ -4,93 +4,351 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>New-Per</title>
     <!-- reset -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/layout.css">
     <!-- 3rd party -->
+    <link rel="stylesheet" href="./css/flaticons.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
     <!-- components -->
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/myskills.css">
+    <link rel="stylesheet" href="./css/myresume.css">
+    <link rel="stylesheet" href="./css/counter.css">
+    <link rel="stylesheet" href="./css/myservices.css">
+    <link rel="stylesheet" href="./css/myportfolio.css">
+    <link rel="stylesheet" href="./css/testimonials.css">
+    <link rel="stylesheet" href="./css/block.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <!-- custom -->
     <link rel="stylesheet" href="./css/custom.css">
 </head>
 
 <body>
-    <!-- header -->
-    <header class="container-fluid">
-        <div class="row">
-            HEADER
+    <!-- Header -->
+    <header></header>
+    <!-- Hero -->
+    <div id="home"></div>
+    <div class="hero overlay">
+        <div class="container">
+            <div class="row">
+                <div id="hero_block" class="col-12">
+
+                </div>
+            </div>
         </div>
-    </header>
-    <!-- hero -->
+    </div>
+    <!-- ABOUT -->
+    <div id="about" class="container ">
+        <div class="row">
+            <div class="image col-6 col-sm-12 ">
+                <img src="./img/about.jpg" alt="Nuotrauka">
+            </div>
+            <div class="about col-6 col-sm-12">
+                <h1><span>About</span> Me</h1>
+                <div class="lineAbout">
+                    <div class="line-blue"></div>
+                </div>
+                <h2>I AM A UI/UX DESIGNER AND A HUMAN</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.</p>
+                <div class="contacts">
+                    <div class="left-column">
+                        <p class="name"><span>NAME:</span>John Doe</p>
+                        <p class="age"><span>AGE: </span>27</p>
+                    </div>
+                    <div class="right-column">
+                        <p class="email"><span>Email: </span>John_Doe@Gmail.com</p>
+                        <p class="location"><span>LOCATION: </span>Los Angeles, USA</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="download-resume" type="button">DOWNLOAD RESUME</button>
+                    <button class="hire-me" type="button">HIRE ME</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- MY SKILLS -->
+    <div class="container skillscolor">
+        <div class="row">
+            <div class="skill-title col-12">
+                <h4 class="ski-title"><span>My</span> Skills</h4>
+            </div>
+            <div class="skillbar col-6">
+                <!-- Labels Skillbar-->
+                <h4>Photography</h4>
+                <div class="bar-progress">
+                    <div class="percentbar"></div>
+                    <div class="prog" style="width: 75%;">
+                        <div class="barbar">
+                            <span id="bar1" class="percent">75%</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Labels Skillbar-->
+                <h4>Branding</h4>
+                <div class="bar-progress">
+                    <div class="percentbar"></div>
+                    <div class="prog" style="width: 95%;">
+                        <div class="barbar">
+                            <span id="bar2" class="percent">95%</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Labels Skillbar-->
+                <h4>Graphic Design</h4>
+                <div class="bar-progress">
+                    <div class="percentbar"></div>
+                    <div class="prog" style="width: 70%;">
+                        <div class="barbar">
+                            <span id="bar3" class="percent">70%</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Labels Skillbar-->
+                <h4>Development</h4>
+                <div class="bar-progress">
+                    <div class="percentbar"></div>
+                    <div class="prog" style="width: 80%;">
+                        <div class="barbar">
+                            <span id="bar4" class="percent">80%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skillbar col-6">
+                <!-- Labels Skillbar-->
+                <h4>HTML / CSS</h4>
+                <div class="bar-progress">
+                    <div class="percentbar"></div>
+                    <div class="prog" style="width: 95%;">
+                        <div class="barbar">
+                            <span id="bar5" class="percent">95%</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Labels Skillbar-->
+                <h4>Js / JQuery</h4>
+                <div class="bar-progress">
+                    <div class="percentbar"></div>
+                    <div class="prog" style="width: 80%;">
+                        <div class="barbar">
+                            <span id="bar6" class="percent">80%</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Labels Skillbar-->
+                <h4>Php / WordPress</h4>
+                <div class="bar-progress">
+                    <div class="percentbar"></div>
+                    <div class="prog" style="width: 75%;">
+                        <div class="barbar">
+                            <span id="bar7" class="percent">75%</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Labels Skillbar-->
+                <h4>PhotoShop</h4>
+                <div class="bar-progress">
+                    <div class="percentbar"></div>
+                    <div class="prog" style="width: 94%;">
+                        <div class="barbar">
+                            <span id="bar8" class="percent">94%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MY RESUME -->
     <div class="container">
         <div class="row">
-            HERO
+            <div class="col-12 text-centerRes">
+                <h4 class="titleRes"><span>My</span> Resume</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 icon-leftRes col-xs-12">
+                <div class="fa fa-book"></div>
+                <ul class="leftRes">
+                    <li class="liRes">
+                        <span>Jan 2004 - Dec 2006</span>
+                        <h5 class="h5Res">SPECIALIZATION COURS</h5>
+                        <h6>University Of Studies, Poland, Cracow</h6>
+                    </li>
+                    <li class="liRes">
+                        <span>Jan 2004 - Dec 2006</span>
+                        <h5 class="h5Res">SPECIALIZATION COURS</h5>
+                        <h6>University Of Studies, Poland, Cracow</h6>
+                    </li>
+                    <li class="liRes">
+                        <span>Jan 2004 - Dec 2006</span>
+                        <h5 class="h5Res">SPECIALIZATION COURS</h5>
+                        <h6>University Of Studies, Poland, Cracow</h6>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 icon-rightRes col-xs-12">
+                <div class="fa fa-briefcase"></div>
+                <ul class="rightRes">
+                    <li class="liRes">
+                        <span>Jan 2004 - Dec 2006</span>
+                        <h5 class="h5Res">SPECIALIZATION COURS</h5>
+                        <h6>University Of Studies, Poland, Cracow</h6>
+                    </li>
+                    <li class="liRes">
+                        <span>Jan 2004 - Dec 2006</span>
+                        <h5 class="h5Res">SPECIALIZATION COURS</h5>
+                        <h6>University Of Studies, Poland, Cracow</h6>
+                    </li>
+                    <li class="liRes">
+                        <span>Jan 2004 - Dec 2006</span>
+                        <h5 class="h5Res">SPECIALIZATION COURS</h5>
+                        <h6>University Of Studies, Poland, Cracow</h6>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
-    <!-- clients -->
+    <!-- COUNTER -->
+    <div class="container counter overlay">
+        <div id="counter_block" class="row counter-content">
+
+        </div>
+    </div>
+    <!-- MY SERVICES -->
+    <div id="services" class="container bg-services">
+        <div class="row">
+            <div class="col-12 text-center mb-50">
+                <h2>
+                    <span>my</span> services
+                </h2>
+            </div>
+        </div>
+        <div id="services_block" class="row text-center">
+
+        </div>
+    </div>
+    <!-- MY PORTFOLIO -->
     <div class="container">
         <div class="row">
-            CLIENTS
+            <div class="portfolio-title col-12">
+                <h2><span>My</span> Portfolio</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div id="portfolio" class="portfolio col-12">
+
+            </div>
         </div>
     </div>
-    <!-- services -->
-    <div class="container">
+    <!-- TESTIMONIALS -->
+    <div id="client" class="container testimonials">
         <div class="row">
-            SERVICES
+            <div id="testimonials" class="col-12">
+
+            </div>
         </div>
     </div>
-    <!-- our company -->
-    <div class="container">
+    <!-- BLOG -->
+    <div id="blog" class="container">
         <div class="row">
-            OUR COMPANY
+            <div class="col-12 title-blog">
+                <div class="title-and-line">
+                    <h1><span>Latest</span> Blog</h1>
+                    <div class="lineAbout">
+                        <div class="line-blue"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 col-sm-12 content-blog">
+                <div class="blog1">
+
+                </div>
+            </div>
+            <div class="col-4 col-sm-12 content-blog">
+                <div class="blog2">
+
+                </div>
+            </div>
+
+            <div class="col-4 col-sm-12 content-blog">
+                <div class="blog3">
+
+                </div>
+            </div>
         </div>
     </div>
-    <!-- hire us -->
-    <div class="container">
-        <div class="row">
-            HIRE US
-        </div>
-    </div>
-    <!-- achievements -->
-    <div class="container">
-        <div class="row">
-            ACHIEVEMENTS
-        </div>
-    </div>
-    <!-- watch video -->
-    <div class="container-fluid">
-        <div class="row">
-            WATCH VIDEO
-        </div>
-    </div>
-    <!-- case studies -->
-    <div class="container">
-        <div class="row">
-            CASE STUDIES
-        </div>
-    </div>
-    <!-- testimonials -->
-    <div class="container-fluid">
-        <div class="row">
-            TESTIMONIALS
-        </div>
-    </div>
-    <!-- blog -->
-    <div class="container">
-        <div class="row">
-            BLOG
-        </div>
-    </div>
-    <!-- contact -->
-    <div class="container">
-        <div class="row">
-            CONTACT
+    <!-- CONTACT -->
+    <div id="contact" class="container contact">
+        <div class="row contact-row">
+            <div class="col-7 col-lg-6 col-md-12 col-sm-12">
+                <div class="full-contact">
+                    <div class="just-title">
+                        <h4 class="titleContact"><span>Get</span> In Touch</h4>
+                    </div>
+                    <form>
+                        <div class="form-msg">
+                            <label for="username"><i class="fa fa-user" aria-hidden="true"></i></label>
+                            <input id="username" type="text" placeholder="Your Full Name Here" class="inputs">
+                        </div>
+                        <div class="form-msg">
+                            <label for="email "><i class="fa fa-envelope" aria-hidden="true"></i></label>
+                            <input id="email" type="text" placeholder="Your Email Here" class="inputs">
+                        </div>
+                        <div class="form-msg">
+                            <label for="messasge_me"><i class="fa fa-comment" aria-hidden="true"></i></label>
+                            <!-- <input id="messasge_me" type="text" placeholder="Message For Me" class="inputs"> -->
+                            <textarea class="textarea" name="Message" id="messasge_me" placeholder="Message For Me"
+                                rows="4"></textarea>
+                        </div>
+                        <div class="button">
+                            <button>SEND MESSAGE</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-5 col-lg-6 col-md-12 col-sm-12 contact-info">
+                <div class="row contact-row-right">
+                    <div>
+                        <h4 class="contact-h4">Contact Info.</h4>
+                        <p class="contact-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Perferendis culpa
+                            repudiandae possimus
+                            nisi voluptate dignissimos provident sequi vel at.</p>
+                    </div>
+                    <div>
+                        <h5 class="contact-h5"><span class="fa fa-headphones" aria-hidden="true"></span>+00123456789
+                        </h5>
+                    </div>
+                    <div>
+                        <h5 class="contact-h5"><span class="fa fa-play" aria-hidden="true"></span>DEMO@GMAIL.COM
+                        </h5>
+                    </div>
+                    <div>
+                        <h5 class="contact-h5"><span class="fa fa-map-marker" aria-hidden="true"></span>3481
+                            MELROSE
+                            PLACE, LOS ANGELES</h5>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- footer -->
-    <footer class="container">
+    <footer class="container footer-text">
         <div class="row">
-            FOOTER
+            <div class="foot-text col-12">
+                <h6>Copy Right © By A-Shawky 2017 | All Rights Reserved.</h6>
+            </div>
         </div>
     </footer>
     <script src="./js/main.js" type="module"></script>

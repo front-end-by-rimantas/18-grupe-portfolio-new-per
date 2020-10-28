@@ -1,0 +1,116 @@
+.container.contact{
+    background-color: #F4F5F8;
+}
+.contact-row {
+    background-color: #ffffff;
+}
+.full-contact {
+    background-color: #ffffff;
+    padding-bottom: 20px;
+    padding: 30px;
+}
+
+.contact-info {
+    background: linear-gradient(rgba(156, 39, 176, 0.9), rgba(156, 39, 176, 0.9)), url(../img/contact.jpg);
+    background-size: cover;
+    padding: 50px;
+    position: relative;
+}
+.just-title {
+        margin-bottom: 50px;
+        display: inline-block;
+        font-size: 40px;
+        position: relative;
+        border-bottom: 1px solid #f5f5f5;
+}
+.just-title::before{
+        display: block;
+        content: '';
+        width: 60px;
+        height: 1px;
+        background-color: #9c27b0;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+}
+.titleContact > span{
+    color: blueviolet;
+}
+.form-msg .inputs {
+    padding: 15px;
+    border: none;
+    background-color: #F4F5F8;
+    width: 100%;
+    outline: none;
+}
+.form-msg {
+    display: table;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #F4F5F8;
+}
+i.fa.fa-facomment{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+div > label > i.fa {
+    background-color:gray;
+    padding: 15px;
+    width: 40px;
+}
+.button > button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 22px;
+    border: none;
+    font-size: 13px;
+    background-color: #9c27b0;
+    color: #ffffff;
+    transition: all 1s;
+    
+}
+button:hover{
+    color: blueviolet;
+    background-color: #ffffff;
+}
+.contact-h4 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+.contact-p{
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+.contact-h5 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    line-height: 35px;
+}
+.contact-h5 > .fa {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.textarea {
+    border: none;
+    border-radius: 0;
+    padding: 15px;
+    background-color: #F4F5F8;
+    width: 100%;
+}
+.fa.fa-comment {
+    padding-bottom: 40px;
+    padding-top: 40px
+}
+.form-msg label {
+    width: 1%;
+    display: table-cell;
+}

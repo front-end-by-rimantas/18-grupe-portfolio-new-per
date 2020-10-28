@@ -1,0 +1,118 @@
+.hero {
+    background-image: url(../img/header.jpg);
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+
+.overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.hero #hero_block > .info {
+    display: inline-block;
+    width: 100%;
+    margin-top: 250px;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.hero #hero_block>.info h3 {
+    text-align: center;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #bdbdbd;
+}
+
+.hero #hero_block > .info h2 {
+    display: block;
+    color: #fff;
+    font-size: 4rem;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+}
+
+.hero #hero_block > .info ul {
+    display: inline-block;
+    list-style: none;
+    letter-spacing: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0.3rem 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    animation: animate infinite 1s;
+}
+
+@keyframes animate{
+    0% {
+        color: springgreen;
+    }
+    25% {
+        color: rgb(217, 255, 0);
+    }
+    50% {
+        color: rgb(0, 247, 255);
+    }
+    75% {
+        color: rgb(212, 0, 255);
+    }
+    100% {
+        color: rgb(255, 61, 55);
+        color: springgreen;
+    }
+}
+
+.hero #hero_block .socials {
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+.hero #hero_block .socials a {
+    text-decoration: none;
+}
+
+.hero #hero_block .socials a i {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 8px;
+    font-size: 0.8em;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.hero #hero_block .socials a i:hover {
+    background-color: #9c27b0;
+    transition: ease 1s;
+}
+
+@media (max-width: 700px) {
+    .hero .container .row #hero_block .info h3 {
+        font-size: 1rem;
+    }
+    .hero .container .row #hero_block .info h2 {
+        font-size: 2rem;
+    }
+    .hero .container .row #hero_block .socials a i {
+        margin: 5px;
+    }
+}
