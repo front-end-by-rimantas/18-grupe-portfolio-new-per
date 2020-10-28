@@ -1,4 +1,8 @@
 // header import
+import { nav } from './data/header.js';
+import { header, navLink, headerImg } from './components/header/headerscroll.js';
+import { renderHeader, renderNav } from './components/header/header.js';
+
 // hero import
 import { heroData } from './data/hero.js';
 import { renderHero } from './components/hero/renderHero.js';
@@ -9,6 +13,8 @@ import { herotypeanim } from './utils/typeanimation.js';
 import { resumeInfo } from './data/resumeInfo.js';
 import { renderResume } from './components/resume/renderResume.js';
 // counter import
+import { dataCounter } from './data/counter.js';
+import { Counter } from './components/counter/Counter.js';
 // my service import
 import { servicesData } from './data/services.js';
 import { renderServices } from './components/services/renderServices.js';
@@ -25,6 +31,8 @@ import blogData from './blogData.js';
 //contact import
 
 // header logic
+// renderHeader();
+// renderNav(nav);
 // hero logic
 renderHero(heroData);
 herotypeanim(heroData);
@@ -33,6 +41,7 @@ herotypeanim(heroData);
 // my resume logic
 renderResume(resumeInfo);
 // counter logic
+new Counter(dataCounter);
 // my service logic
 renderServices(servicesData);
 //my portfolio logic 

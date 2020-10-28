@@ -3,7 +3,6 @@
 }
     .image img {
          width: 360px;
-         height: 510px;
          border: 10px solid rgb(243, 239, 239);    
     }
 .about {   
@@ -143,4 +142,17 @@
             .about {
             justify-self: center;
             }
+}
+@media (max-width: 500px ) {
+
+    .container > .row > .col-xs-12 {
+        grid-column: span 12;
+    }
+    .image img {
+        max-width: 100%;
+    }
+    .about {
+        margin-right: 0;
+
+    }
 }

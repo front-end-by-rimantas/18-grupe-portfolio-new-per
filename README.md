@@ -5,6 +5,7 @@
 
 Design: [New-per-netlify portfolio template](https://new-per.netlify.app/demo-3.html)
 
+Site published at https://front-end-by-rimantas.github.io/18-grupe-portfolio-new-per/
 
 ## Project features
 - responsive design
