@@ -113,3 +113,9 @@
     width: 30px;
     background-color: #9c27b0;
 }
+
+@media (max-width: 900px) {
+    .testimonials .row .carousel .content .carousel-list .client-review .space {
+        padding: 30px 0;
+    }
+}
