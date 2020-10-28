@@ -4,10 +4,11 @@ function carousel() {
     const dotsNav = document.querySelector('.slideButtons');
     const dots = Array.from(dotsNav.children);
 
-    const slideWidth = slides[0].getBoundingClientRect().width;
+    // const slideWidth = slides[0].getBoundingClientRect().width;
 
+    const slideWidth = 100 * 4;
     const setSlidePosition = (slide, index) => {
-        slide.style.left = slideWidth * index + 'px';
+        slide.style.left = slideWidth * index + '%';
     };
 
     slides.forEach(setSlidePosition);
@@ -20,8 +21,9 @@ function carousel() {
 
         const targetIndex = dots.findIndex(dot => dot === targetDot);
         const targetSlide = slides[targetIndex];
+        const diff = -100 / 4 * targetIndex;
 
-        track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
+        track.style.transform = `translateX(${diff}%)`;
         currentDot.classList.remove('activeBar');
         targetDot.classList.add('activeBar');
 
