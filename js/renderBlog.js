@@ -5,7 +5,6 @@ function renderBlog(blogData) {
     if (numberBlog > 3) {
         numberBlog = 3;
     }
-    console.log(numberBlog);
     for (let i = 0; i < numberBlog; i++) {
         const singleBlog = blogData[i];
         const HTML = renderSingleBlog(singleBlog);
