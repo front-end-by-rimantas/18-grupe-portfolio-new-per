@@ -9,6 +9,8 @@ import { herotypeanim } from './utils/typeanimation.js';
 import { resumeInfo } from './data/resumeInfo.js';
 import { renderResume } from './components/resume/renderResume.js';
 // counter import
+import { dataCounter } from './data/counter.js';
+import { Counter } from './components/counter/Counter.js';
 // my service import
 import { servicesData } from './data/services.js';
 import { renderServices } from './components/services/renderServices.js';
@@ -33,6 +35,7 @@ herotypeanim(heroData);
 // my resume logic
 renderResume(resumeInfo);
 // counter logic
+new Counter(dataCounter);
 // my service logic
 renderServices(servicesData);
 //my portfolio logic 
