@@ -55,7 +55,7 @@ class Counter {
             if(ach.dataset.run){
                 continue;
             }
-            const achBottomY = ach.offsetTop + ach.offsetHeight;
+            const achBottomY = ach.offsetParent.offsetTop + ach.offsetParent.offsetHeight;
             if (screenBottomY > achBottomY) {
                 ach.dataset.run = true;
                 
