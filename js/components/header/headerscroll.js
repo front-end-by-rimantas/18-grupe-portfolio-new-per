@@ -1,31 +1,31 @@
-"use strict";
-import { renderHeader, renderNav } from './header.js'
+function navBarScroll() {
 
-const header = document.querySelector('header');
-const navLink = document.querySelectorAll('.nav-a');
-const headerImg = document.querySelector('.nav-bar .img');
+    const header = document.querySelector('header');
+    const navLink = document.querySelectorAll('.nav-a');
 
-window.addEventListener("scroll", (e) => {
-
-    let top = window.scrollY;
-
-    if (top >= 500) {
-        header.classList.add('active');
-
-        for (let i = 0; i < navLink.length; i++) {
-            navLink[i].classList.add('nav-b')
-        };
-
-        headerImg.classList.add('logo2');
-
-    } else {
-        header.classList.remove('active');
-
-        for (let i = 0; i < navLink.length; i++) {
-            navLink[i].classList.remove('nav-b')
-        };
-
-        headerImg.classList.remove('logo2');
+    if(scrollY === 0){
+        navLink[0].classList.add('navLinkActive');
     }
-});
-export { header, navLink, headerImg }
+
+    addEventListener("scroll", () => {
+
+        let top = scrollY;
+        for (let i = 0; i < navLink.length; i++) {
+            if (top >= 100) {
+                header.classList.add('hidde');
+            } else {
+                header.classList.remove('hidde');
+            }
+
+            if (top > 500) {
+                header.classList.add('active');
+                navLink[i].classList.add('nav-b')
+            } else {
+                header.classList.remove('active');
+                navLink[i].classList.remove('nav-b')
+            }
+        };
+    });
+}
+
+export {navBarScroll}
