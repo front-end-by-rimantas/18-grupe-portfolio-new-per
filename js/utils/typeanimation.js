@@ -42,4 +42,4 @@ function herotypeanim(data) {
   });
 }
 
-export {herotypeanim};
+export { herotypeanim };
