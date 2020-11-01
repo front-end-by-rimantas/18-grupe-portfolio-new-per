@@ -2,13 +2,13 @@
 import { nav } from './data/header.js';
 import { header, navLink, headerImg } from './components/header/headerscroll.js';
 import { renderHeader, renderNav } from './components/header/header.js';
-
 // hero import
 import { heroData } from './data/hero.js';
 import { renderHero } from './components/hero/renderHero.js';
 import { herotypeanim } from './utils/typeanimation.js';
 // about import
 // my skills import
+import { progressbar } from './components/progressbar/progressbar.js';
 // my resume import
 import { resumeInfo } from './data/resumeInfo.js';
 import { renderResume } from './components/resume/renderResume.js';
@@ -38,6 +38,7 @@ renderHero(heroData);
 herotypeanim(heroData);
 // about logic
 // my skills logic
+progressbar();
 // my resume logic
 renderResume(resumeInfo);
 // counter logic

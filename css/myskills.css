@@ -1,12 +1,14 @@
 .skillscolor {
     background-color: #f4f5f8;
 }
+
 .skill-title {
     position: relative;
     margin: auto;
     padding: 0;
     display: block;
 }
+
 .skill-title h4 {
     position: relative;
     display: inline-block;
@@ -17,9 +19,11 @@
     text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid #f5f5f5;
 }
+
 .skill-title h4 span {
     color: #9c27b0;
 }
+
 .skill-title h4::before {
     content: '';
     width: 60px;
@@ -34,11 +38,13 @@
     display: block;
     position: relative;
 }
+
 .skillbar h4 {
     font-size: 16px;
     margin-bottom: 15px;
     text-transform: uppercase;
 }
+
 .skillbar .bar-progress {
     position: relative;
     height: 5px;
@@ -47,9 +53,7 @@
     border-radius: 4px;
     background-color: #fff;
 }
-.percentbar {
-    display: inline;
-}
+
 .skillbar .percent {
     position: absolute;
     font-size: 12px;
@@ -61,21 +65,26 @@
     background-color: #fff;
     z-index: 2;
 }
-.bar-progress .prog{
+
+.bar-progress .prog {
     display: block;
-    width: 75%;
+    width: 100%;
     height: 5px;
     background-color: #fff;
 }
+
 .bar-progress .prog .barbar {
     position: relative;
     height: 100%;
-    width: 100%;
+    width: 1%;
     background-color: #9c27b0;
     border-radius: 4px;
-    animation-name: loading;
-    animation-duration: 4s;
-} 
+}
+
+.bar-progress .prog .barbar.animate {
+    animation: loading ease 4s;
+    width: 100%;
+}
 
 @keyframes loading {
     0% {
